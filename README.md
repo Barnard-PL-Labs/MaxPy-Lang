@@ -1,13 +1,13 @@
-# MaxPy
+# MaxPyLang
 
 
-MaxPy is a Python package for metaprogramming of MaxMSP that uses Python to generate and edit Max patches. MaxPy allows users to move freely between text-based Python programming and visual programming in Max, making it much easier to implement dynamic patches, random patches, mass-placement and mass-connection of objects, and other easily text-programmed techniques.
+MaxPyLang is a Python package for metaprogramming of MaxMSP that uses Python to generate and edit Max patches. MaxPyLang allows users to move freely between text-based Python programming and visual programming in Max, making it much easier to implement dynamic patches, random patches, mass-placement and mass-connection of objects, and other easily text-programmed techniques.
 
 ## Installation
 
 ```bash
-git clone https://github.com/Barnard-PL-Labs/MaxPy-Lang.git
-cd MaxPy-Lang
+git clone https://github.com/Barnard-PL-Labs/MaxPyLang.git
+cd MaxPyLang
 pip install .
 ```
 
@@ -19,8 +19,10 @@ pip install .
 
 ## Quick Start
 
+See this example in [examples/hello_world](examples/hello_world).
+
 ```python
-import maxpy as mp
+import maxpylang as mp
 
 patch = mp.MaxPatch()
 osc = patch.place("cycle~ 440")[0]
@@ -32,7 +34,8 @@ patch.save("hello_world.maxpat")
 ## Citation
 
 MaxPy was published as a [demo paper](MaxPy-NIME-2023-Paper.pdf) for NIME 2023.
-
+The package name was updated to MaxPyLang in 2025 to avoid confusion with other similarly named packages.
+    
 ## Video Demos 
 ### [Basics](https://www.youtube.com/watch?v=F8Fpe0Udc4M)      
 [![Introduction to MaxPy](https://img.youtube.com/vi/F8Fpe0Udc4M/0.jpg)](https://www.youtube.com/watch?v=F8Fpe0Udc4M)     
