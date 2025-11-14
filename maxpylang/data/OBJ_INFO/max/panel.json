@@ -1,0 +1,103 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-269",
+      "maxclass": "panel",
+      "numinlets": 1,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        128.0,
+        128.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "angle",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "arrow_orientation",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bgfillcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "border",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bordercolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "drag_window",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "grad1",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "grad2",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "horizontal_direction",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "rounded",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "shadow",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "shape",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "vertical_direction",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

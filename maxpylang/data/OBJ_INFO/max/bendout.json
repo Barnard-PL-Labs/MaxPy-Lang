@@ -1,0 +1,63 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-29",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        52.0,
+        22.0
+      ],
+      "text": "bendout"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "port-and-channel",
+        "type": [
+          "list"
+        ]
+      },
+      {
+        "name": "channel",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "port",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "midi-device",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "matchport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

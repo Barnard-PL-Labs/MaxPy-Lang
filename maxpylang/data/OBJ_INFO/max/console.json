@@ -1,0 +1,52 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-60",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "",
+        "",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        50.0,
+        22.0
+      ],
+      "text": "console"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "classfilter",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "patcherfilter",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "showonlyerrors",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "textfilter",
+      "type": "atom",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

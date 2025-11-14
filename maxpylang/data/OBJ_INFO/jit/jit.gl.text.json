@@ -1,0 +1,106 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-90",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        53.0,
+        22.0
+      ],
+      "text": "jit.gl.text"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "align",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "depth",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "floatchomp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "floatplaces",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "fontname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "fontsize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "leadscale",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "line_length",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "plane",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "precision",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "screenmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "slant",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "tracking",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "weight",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,47 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-423",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        43.0,
+        22.0
+      ],
+      "text": "xctlout"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "ctrllr-channel",
+        "type": [
+          "list"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "lsbfirst",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "running",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,116 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-73",
+      "maxclass": "newobj",
+      "numinlets": 8,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        76.0,
+        22.0
+      ],
+      "text": "jit.gl.material"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "darkness",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "diffuse_model",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "diffuse_size",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "diffuse_smooth",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "drawto",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "fog",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "heightmap_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "override",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "roughness",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "shadow_eps",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "shadow_hard",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "shadow_radius",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "shadow_soft",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "specular_model",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "specular_size",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "specular_smooth",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "type",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

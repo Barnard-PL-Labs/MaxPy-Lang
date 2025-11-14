@@ -1,0 +1,45 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-106",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        18.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "attr_comment": ""
+      },
+      "text": "in"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "inlet-number/positioning",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "attr_comment",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

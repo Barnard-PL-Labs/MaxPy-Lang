@@ -1,0 +1,107 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-27",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "jit_matrix",
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        58.0,
+        22.0
+      ],
+      "text": "jit.buffer~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "inputfirst",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "inputstart",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "outputfirst",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "outputlast",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "outputlength",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "outputstart",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "vizchecktime",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "vizfirst",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "vizheight",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "vizmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "vizlast",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "vizlength",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "vizmemoryratio",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "vizstart",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "vizwidth",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

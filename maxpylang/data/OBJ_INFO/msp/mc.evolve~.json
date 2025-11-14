@@ -1,0 +1,50 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-178",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "multichannelsignal",
+        "float",
+        "list"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        70.0,
+        22.0
+      ],
+      "text": "mc.evolve~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "id": "0",
+        "name": "chans",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "inclusive",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

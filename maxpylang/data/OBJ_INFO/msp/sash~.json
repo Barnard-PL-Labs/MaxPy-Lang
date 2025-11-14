@@ -1,0 +1,57 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-424",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        41.0,
+        22.0
+      ],
+      "text": "sash~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "advancelevel",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "dir",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "maxsize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "samplelevel",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "size",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

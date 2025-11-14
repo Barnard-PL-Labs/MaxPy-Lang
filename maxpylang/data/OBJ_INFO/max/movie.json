@@ -1,0 +1,54 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-229",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "int",
+        "int",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        41.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "name": ""
+      },
+      "text": "movie"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "filename",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "autofit",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "border",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

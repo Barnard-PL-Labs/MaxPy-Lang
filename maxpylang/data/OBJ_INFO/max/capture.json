@@ -1,0 +1,59 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-44",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        49.0,
+        22.0
+      ],
+      "text": "capture"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "maximum",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "display-format",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "listout",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "precision",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "size",
+      "type": "atom_long",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

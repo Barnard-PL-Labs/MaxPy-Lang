@@ -1,0 +1,71 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-72",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        49.0,
+        22.0
+      ],
+      "text": "jit.gl.lua"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "args",
+      "type": "atom",
+      "size": "16"
+    },
+    {
+      "name": "autowatch",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "file",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "gc",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "inlets",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "last_inlet",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "outlets",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "path",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

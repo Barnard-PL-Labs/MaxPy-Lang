@@ -1,0 +1,58 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-352",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        38.0,
+        22.0
+      ],
+      "text": "spray"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "outlets",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "offset",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "listmode",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "type": ""
+      }
+    ]
+  }
+}

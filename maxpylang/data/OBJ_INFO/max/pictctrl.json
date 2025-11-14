@@ -1,0 +1,138 @@
+{
+  "default": {
+    "box": {
+      "clickedimage": 1,
+      "id": "obj-284",
+      "maxclass": "pictctrl",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "int"
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        20.0,
+        20.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "active",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "clickedimage",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "clickincrement",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "clip",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "degrees",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "frames",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "imagemask",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "inactiveimage",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "multiplier",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "offset",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "range",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "ratio",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "snap",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "threshold",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "trackcircular",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "trackhorizontal",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "tracking",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "trackvertical",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

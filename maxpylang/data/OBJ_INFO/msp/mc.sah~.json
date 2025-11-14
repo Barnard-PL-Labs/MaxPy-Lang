@@ -1,0 +1,53 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-282",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        54.0,
+        22.0
+      ],
+      "text": "mc.sah~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-trigger-value",
+        "default": "0",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "duration",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "thresh",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "triggermode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

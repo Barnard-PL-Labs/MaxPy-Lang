@@ -1,0 +1,216 @@
+{
+  "default": {
+    "box": {
+      "basictuning": 0,
+      "data": {
+        "clips": []
+      },
+      "followglobaltempo": 0,
+      "formantcorrection": 0,
+      "id": "obj-259",
+      "maxclass": "mc.playlist~",
+      "mode": 0,
+      "numinlets": 1,
+      "numoutlets": 4,
+      "originallength": [
+        0
+      ],
+      "originaltempo": 0,
+      "outlettype": [
+        "multichannelsignal",
+        "signal",
+        "",
+        "dictionary"
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        150.0,
+        92.0
+      ],
+      "pitchcorrection": 0,
+      "quality": 0,
+      "timestretch": [
+        0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "accentcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "allowreorder",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "basictuning",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "channelcount",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "clipheight",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "elementcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "expansion",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "followglobaltempo",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "formant",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "formantcorrection",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "loop",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "loopreport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "originallength",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "originaltempo",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pitchcorrection",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pitchshift",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "pitchshiftcent",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "quality",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "reportprogress",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "selectioncolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "showname",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "slurtime",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "speed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "timestretch",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "waveformdisplay",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

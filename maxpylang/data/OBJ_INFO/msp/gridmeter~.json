@@ -1,0 +1,99 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-99",
+      "maxclass": "gridmeter~",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        74.0,
+        58.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "attack",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "cellheight",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "cellwidth",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "columns",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "contrast",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "dividersize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "elementcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "hotcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "interval",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "range",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "release",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

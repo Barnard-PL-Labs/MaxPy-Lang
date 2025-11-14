@@ -1,0 +1,50 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-221",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        47.0,
+        22.0
+      ],
+      "text": "midiout"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "port",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "device",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "matchport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

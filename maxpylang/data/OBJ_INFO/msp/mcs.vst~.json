@@ -1,0 +1,143 @@
+{
+  "default": {
+    "box": {
+      "autosave": 1,
+      "bgmode": 0,
+      "border": 0,
+      "clickthrough": 0,
+      "enablehscroll": 0,
+      "enablevscroll": 0,
+      "id": "obj-350",
+      "lockeddragscroll": 0,
+      "lockedsize": 0,
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 7,
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "outlettype": [
+        "multichannelsignal",
+        "",
+        "list",
+        "int",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        56.0,
+        22.0
+      ],
+      "save": [
+        "#N",
+        "mcs.vst~",
+        "loaduniqueid",
+        0,
+        ";"
+      ],
+      "saved_attribute_attributes": {
+        "valueof": {
+          "parameter_invisible": 1,
+          "parameter_longname": "mcs.vst~",
+          "parameter_shortname": "mcs.vst~",
+          "parameter_type": 3
+        }
+      },
+      "saved_object_attributes": {
+        "parameter_enable": 1,
+        "parameter_mappable": 0
+      },
+      "text": "mcs.vst~",
+      "varname": "mcs.vst~",
+      "viewvisibility": 0
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "number-of-inputs/outputs",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "VST-plugin-filename",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "preset-effects-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "annotation_name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "autosave",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bypass",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enablehscroll",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enablevscroll",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "genericeditor",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mcisolate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "prefer",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "valuemode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

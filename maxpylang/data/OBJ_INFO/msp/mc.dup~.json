@@ -1,0 +1,42 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-175",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        55.0,
+        22.0
+      ],
+      "text": "mc.dup~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "channel count",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

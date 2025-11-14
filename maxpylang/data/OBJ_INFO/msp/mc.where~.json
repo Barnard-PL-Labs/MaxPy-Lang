@@ -1,0 +1,31 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-334",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "multichannelsignal",
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        68.0,
+        22.0
+      ],
+      "text": "mc.where~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

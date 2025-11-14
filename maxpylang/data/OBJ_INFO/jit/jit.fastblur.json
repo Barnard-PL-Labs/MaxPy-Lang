@@ -1,0 +1,56 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-49",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        60.0,
+        22.0
+      ],
+      "text": "jit.fastblur"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "center",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "range",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "ring",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "ripple",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

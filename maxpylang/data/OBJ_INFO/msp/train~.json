@@ -1,0 +1,71 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-466",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        39.0,
+        22.0
+      ],
+      "text": "train~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "inter-pulse-interval",
+        "type": [
+          "number"
+        ],
+        "units": "ms"
+      },
+      {
+        "name": "pulse-width",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "phase",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "interval",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "phase",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "resetmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "width",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

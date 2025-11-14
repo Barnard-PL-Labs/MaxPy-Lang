@@ -1,0 +1,40 @@
+{
+  "default": {
+    "box": {
+      "comment": "",
+      "id": "obj-264",
+      "index": 0,
+      "maxclass": "outlet",
+      "numinlets": 1,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        30.0,
+        30.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "comment",
+      "type": "object",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "tricolor",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

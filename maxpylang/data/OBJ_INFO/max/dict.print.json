@@ -1,0 +1,34 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-89",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        54.0,
+        22.0
+      ],
+      "text": "dict.print"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "identifier",
+        "type": [
+          "any"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

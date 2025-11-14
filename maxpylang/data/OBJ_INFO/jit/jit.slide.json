@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-197",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        45.0,
+        22.0
+      ],
+      "text": "jit.slide"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "slide_down",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "slide_up",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

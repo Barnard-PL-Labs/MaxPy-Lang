@@ -1,0 +1,264 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-162",
+      "maxclass": "itable",
+      "name": "",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "int",
+        "bang"
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        160.0,
+        145.0
+      ],
+      "range": 128,
+      "size": 128,
+      "table_data": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "tablename",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "autohint",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bgcolor2",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "embed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "legend",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "linecolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "notename",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pointcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "range",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "selectioncolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "signed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "size",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "tool",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

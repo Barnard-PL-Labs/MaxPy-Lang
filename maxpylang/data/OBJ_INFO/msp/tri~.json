@@ -1,0 +1,44 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-469",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        26.0,
+        22.0
+      ],
+      "text": "tri~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-frequency",
+        "units": "hz",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "duty-cycle",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

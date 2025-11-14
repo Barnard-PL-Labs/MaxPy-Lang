@@ -1,0 +1,201 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-143",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        75.0,
+        22.0
+      ],
+      "text": "jit.phys.body"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "anim",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "collisions",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "damping",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enable_sleep",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "filterclass",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "filters",
+      "type": "symbol",
+      "size": "10"
+    },
+    {
+      "name": "force",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "forces_relative",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "friction",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "kinematic",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "local_scaling",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mass",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "position",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "quat",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "reduce_hull",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "resetpos",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "resetquat",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "restitution",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rolling_friction",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rotate",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "rotate_order",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "rotatexyz",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "scale",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "send_scale",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "shape",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "targetname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "torque",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "total_force",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "total_torque",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "velocity",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "velocity_ang",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "worldname",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

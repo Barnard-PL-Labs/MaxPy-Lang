@@ -1,0 +1,130 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-406",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        38.0,
+        22.0
+      ],
+      "text": "poly~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "patcher-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "number-of-instances",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "local and flag (0 or 1)",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "'up' and up-sampling-factor",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "'down' and down-sampling factor",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "'args' and list-of-argument-values",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "args",
+      "type": "atom",
+      "size": "20"
+    },
+    {
+      "name": "legacynotemode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "midimode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mpemode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parallel",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "patchername",
+      "type": "symbol",
+      "size": "32"
+    },
+    {
+      "name": "replicate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "resampling",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "steal",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "target",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "voices",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "vs",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "zone",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,56 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-484",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 4,
+      "outlettype": [
+        "signal",
+        "signal",
+        "",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        50.0,
+        22.0
+      ],
+      "text": "zigzag~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-value",
+        "type": [
+          "int",
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "loopmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "maxpoints",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

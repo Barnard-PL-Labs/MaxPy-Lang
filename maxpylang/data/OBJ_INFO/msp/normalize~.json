@@ -1,0 +1,37 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-364",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        68.0,
+        22.0
+      ],
+      "text": "normalize~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-maximum-output-amplitude",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

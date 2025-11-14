@@ -1,0 +1,81 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-134",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        22.0
+      ],
+      "text": "jit.openexr"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "adjust",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "channels",
+      "type": "symbol",
+      "size": "32"
+    },
+    {
+      "name": "defog",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "exposure",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "gamma",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "kneehigh",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "kneelow",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "normalize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "outputfile",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "verbose",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

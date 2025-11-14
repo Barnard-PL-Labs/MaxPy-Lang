@@ -1,0 +1,37 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-18",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "float"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        39.0,
+        22.0
+      ],
+      "text": "atan2"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "x-value",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,43 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-246",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        60.0,
+        22.0
+      ],
+      "text": "mc.pack~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "id": "0",
+        "name": "size",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

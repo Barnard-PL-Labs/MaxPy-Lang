@@ -1,0 +1,50 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-249",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 4,
+      "outlettype": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        42.0,
+        22.0
+      ],
+      "text": "nrpnin"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "param-channel",
+        "type": [
+          "list"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "hires",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "permissive",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

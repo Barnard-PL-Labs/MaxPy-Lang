@@ -1,0 +1,111 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-95",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        72.0,
+        22.0
+      ],
+      "text": "jit.gl.volume"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bounds",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "clip",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "clipangle",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "clipaxis",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "cubes",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "density",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "displaylist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "distance",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "ds",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "exposure",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "intensity",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "raycast_adapt",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "raycast_dim",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "samples",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "slices",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

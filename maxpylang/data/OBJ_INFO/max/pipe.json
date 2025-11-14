@@ -1,0 +1,52 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-288",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        31.0,
+        22.0
+      ],
+      "text": "pipe"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initialization",
+        "type": [
+          "list"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "clock",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "delaytime",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "quantize",
+      "type": "atom",
+      "size": "10"
+    }
+  ],
+  "in/out": {}
+}

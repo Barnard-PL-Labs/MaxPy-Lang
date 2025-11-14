@@ -1,0 +1,54 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-184",
+      "maxclass": "lcd",
+      "numinlets": 1,
+      "numoutlets": 4,
+      "outlettype": [
+        "list",
+        "list",
+        "int",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        128.0,
+        128.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "bgtransparent",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "border",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enablesprites",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "idle",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "local",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,63 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-270",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        66.0,
+        22.0
+      ],
+      "text": "mc.range~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "id": "0",
+        "name": "size",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "hi",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "inclusive",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "lo",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "reflection",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

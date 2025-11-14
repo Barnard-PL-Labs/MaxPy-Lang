@@ -1,0 +1,59 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-349",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        57.0,
+        22.0
+      ],
+      "text": "speedlim"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "delta-time",
+        "type": [
+          "int",
+          "symbol",
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "defer",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "quantize",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "threshold",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "usurp",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

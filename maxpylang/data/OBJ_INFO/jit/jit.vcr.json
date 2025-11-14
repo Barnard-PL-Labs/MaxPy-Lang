@@ -1,0 +1,106 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-219",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        36.0,
+        22.0
+      ],
+      "text": "jit.vcr"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "adapt",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "cache_size",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "codec",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "codeclist",
+      "type": "symbol",
+      "size": "512"
+    },
+    {
+      "name": "dstrect",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "engine",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "fps",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "interp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "planemap",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "preview",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "realtime",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "srcrect",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "time",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "usedstrect",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "usesrcrect",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

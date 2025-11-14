@@ -1,0 +1,128 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-139",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 4,
+      "outlettype": [
+        "jit_matrix",
+        "jit_matrix",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        44.0,
+        22.0
+      ],
+      "text": "jit.path"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autohandles",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "closed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "duration",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "evalmatrixmode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "evalmatrixname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "evalmatrixsize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "grain",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interpmode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "length",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "loop",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "outmatrixname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "play",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pointcount",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rate",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "thru",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "time",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "timemode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "usetime",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

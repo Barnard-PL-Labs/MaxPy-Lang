@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-376",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "float"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        32.0,
+        22.0
+      ],
+      "text": "tanh"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-value",
+        "type": [
+          "int",
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

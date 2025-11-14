@@ -1,0 +1,71 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-70",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        69.0,
+        22.0
+      ],
+      "text": "jit.gl.isosurf"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autocolor",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "autonormals",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "3"
+    },
+    {
+      "name": "displaylist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "epsilon",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "isolevel",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "trianglecount",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

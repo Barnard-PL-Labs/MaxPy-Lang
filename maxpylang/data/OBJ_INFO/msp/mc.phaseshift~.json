@@ -1,0 +1,43 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-252",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        90.0,
+        22.0
+      ],
+      "text": "mc.phaseshift~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "frequency",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "q",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

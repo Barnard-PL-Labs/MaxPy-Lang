@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-157",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        80.0,
+        22.0
+      ],
+      "text": "mc.combine~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "id": "0",
+        "name": "number-of-inlets",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "type": null
+      }
+    ]
+  }
+}

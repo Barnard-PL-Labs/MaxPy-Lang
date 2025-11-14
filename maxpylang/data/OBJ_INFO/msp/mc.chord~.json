@@ -1,0 +1,86 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-154",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 4,
+      "outlettype": [
+        "multichannelsignal",
+        "multichannelsignal",
+        "list",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        65.0,
+        22.0
+      ],
+      "text": "mc.chord~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "id": "0",
+        "name": "channels",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "allocmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "busymapname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "embed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "extendmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "inputmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "offmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "triggermode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "usebusymap",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

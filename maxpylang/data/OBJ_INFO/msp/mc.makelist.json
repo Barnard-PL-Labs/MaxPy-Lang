@@ -1,0 +1,40 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-220",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        72.0,
+        22.0
+      ],
+      "text": "mc.makelist"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "voices",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

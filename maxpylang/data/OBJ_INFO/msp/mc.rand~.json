@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-269",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        59.0,
+        22.0
+      ],
+      "text": "mc.rand~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-frequency",
+        "units": "hz",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

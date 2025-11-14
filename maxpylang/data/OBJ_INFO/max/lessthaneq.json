@@ -1,0 +1,43 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-189",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        23.0,
+        22.0
+      ],
+      "text": "<="
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "intitial-value",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "fuzzy",
+      "type": "atom",
+      "size": "1",
+      "force": "1"
+    }
+  ],
+  "in/out": {}
+}

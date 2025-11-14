@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-11",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        35.0,
+        22.0
+      ],
+      "text": "adc~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "inputs",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

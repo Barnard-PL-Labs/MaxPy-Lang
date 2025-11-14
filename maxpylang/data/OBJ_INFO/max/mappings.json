@@ -1,0 +1,32 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-198",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        61.0,
+        22.0
+      ],
+      "text": "mappings"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "file",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

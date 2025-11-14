@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-147",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "int",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        34.0,
+        22.0
+      ],
+      "text": "histo"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "size",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

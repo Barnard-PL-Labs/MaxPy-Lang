@@ -1,0 +1,65 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-81",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        85.0,
+        22.0
+      ],
+      "text": "jit.gl.physdraw"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "constraintsize",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "contactsize",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "draw_aabb",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "draw_bodies",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "draw_worldbox",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rgb",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "worldname",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

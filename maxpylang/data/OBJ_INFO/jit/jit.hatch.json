@@ -1,0 +1,46 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-102",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        50.0,
+        22.0
+      ],
+      "text": "jit.hatch"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "grid",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "thresh",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,63 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-198",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        58.0,
+        22.0
+      ],
+      "text": "mc.gate~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "number-of-outlets",
+        "default": "1",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "initial-open-outlet",
+        "default": "0",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "ramptime",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "stepmode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "type": "multichannelsignal"
+      }
+    ]
+  }
+}

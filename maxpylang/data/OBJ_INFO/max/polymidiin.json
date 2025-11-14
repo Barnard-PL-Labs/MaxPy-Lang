@@ -1,0 +1,30 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-296",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 1,
+      "outlettype": [
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        62.0,
+        22.0
+      ],
+      "text": "polymidiin"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

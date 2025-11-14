@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-353",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        41.0,
+        22.0
+      ],
+      "text": "sprintf"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "format",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "symout",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

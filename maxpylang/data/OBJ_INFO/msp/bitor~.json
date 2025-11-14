@@ -1,0 +1,48 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-29",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        39.0,
+        22.0
+      ],
+      "text": "bitor~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "bitmask",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "operational-mode",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

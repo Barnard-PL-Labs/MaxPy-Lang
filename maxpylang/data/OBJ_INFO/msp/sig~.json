@@ -1,0 +1,37 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-438",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        31.0,
+        22.0
+      ],
+      "text": "sig~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-output-value",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

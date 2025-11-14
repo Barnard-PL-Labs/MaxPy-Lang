@@ -1,0 +1,131 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-75",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        66.0,
+        22.0
+      ],
+      "text": "jit.gl.model"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "animblendmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "cache_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "displaylist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "drawgroup",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "drawskeleton",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "file",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "find_instances",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "fix_normals",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "gen_normals",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "gen_tangents",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "hasbones",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "material_mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "nodeaxes",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "normalize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "numanimations",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "numgroups",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "optimize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "smoothing_angle",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "verbose",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

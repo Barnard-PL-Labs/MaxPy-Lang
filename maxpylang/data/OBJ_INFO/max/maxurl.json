@@ -1,0 +1,39 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-205",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "dictionary",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        45.0,
+        22.0
+      ],
+      "text": "maxurl"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "id": "0",
+        "name": "thread count",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

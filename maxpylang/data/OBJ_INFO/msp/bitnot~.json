@@ -1,0 +1,42 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-28",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        45.0,
+        22.0
+      ],
+      "text": "bitnot~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "operational-mode",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-88",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        71.0,
+        22.0
+      ],
+      "text": "jit.gl.skybox"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "displaylist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "infinite",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,55 @@
+{
+  "default": {
+    "box": {
+      "bgmode": 0,
+      "border": 0,
+      "clickthrough": 0,
+      "enablehscroll": 0,
+      "enablevscroll": 0,
+      "id": "obj-38",
+      "lockeddragscroll": 0,
+      "lockedsize": 0,
+      "maxclass": "bpatcher",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        128.0,
+        128.0
+      ],
+      "viewvisibility": 1
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "args",
+      "type": "atom",
+      "size": "256"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "embed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

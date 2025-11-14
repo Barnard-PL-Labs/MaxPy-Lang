@@ -1,0 +1,71 @@
+{
+  "default": {
+    "box": {
+      "handoff": "",
+      "id": "obj-404",
+      "maxclass": "ubutton",
+      "numinlets": 1,
+      "numoutlets": 4,
+      "outlettype": [
+        "bang",
+        "bang",
+        "",
+        "int"
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        33.0,
+        42.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "dragtrack",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "hilite",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "hltcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rounded",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "stay",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "toggle",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

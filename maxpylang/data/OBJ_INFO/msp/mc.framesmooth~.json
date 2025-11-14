@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-191",
+      "linecount": 13,
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        18.0,
+        183.0
+      ],
+      "text": "mc.framesmooth~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "framesize",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "smoothness",
+      "type": "atom_long",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

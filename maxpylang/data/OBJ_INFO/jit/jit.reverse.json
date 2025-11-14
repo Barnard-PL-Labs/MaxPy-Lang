@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-181",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        61.0,
+        22.0
+      ],
+      "text": "jit.reverse"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "immediate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "reverse",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

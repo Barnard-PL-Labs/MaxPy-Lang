@@ -1,0 +1,37 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-119",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        32.0,
+        22.0
+      ],
+      "text": "log~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "logarithmic-base",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

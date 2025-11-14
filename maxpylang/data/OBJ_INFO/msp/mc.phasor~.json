@@ -1,0 +1,73 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-254",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        72.0,
+        22.0
+      ],
+      "text": "mc.phasor~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-frequency",
+        "units": "time-value",
+        "type": [
+          "list"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "frequency",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "jitter",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "limit",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "lock",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "phaseoffset",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "syncupdate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "transport",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

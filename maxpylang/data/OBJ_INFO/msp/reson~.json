@@ -1,0 +1,65 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-417",
+      "maxclass": "newobj",
+      "numinlets": 4,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        46.0,
+        22.0
+      ],
+      "text": "reson~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-gain",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "center-frequency",
+        "units": "hz",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "Q",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "cf",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "gain",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "q",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-35",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        56.0,
+        22.0
+      ],
+      "text": "jit.concat"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autoclear",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "concatdim",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "truncate",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

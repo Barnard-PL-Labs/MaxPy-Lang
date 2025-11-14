@@ -1,0 +1,42 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-125",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        32.0,
+        22.0
+      ],
+      "text": "ftom"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "format",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "base",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

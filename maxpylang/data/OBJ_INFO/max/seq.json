@@ -1,0 +1,54 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-338",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "int",
+        "bang",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        28.0,
+        22.0
+      ],
+      "text": "seq"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "filename",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "overridetempo",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "sequencetempo",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "tempo",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

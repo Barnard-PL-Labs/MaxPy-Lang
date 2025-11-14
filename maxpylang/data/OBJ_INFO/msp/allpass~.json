@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-15",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        53.0,
+        22.0
+      ],
+      "text": "allpass~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "max-delay",
+        "units": "ms",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "initial-delay",
+        "units": "ms",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "gain",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

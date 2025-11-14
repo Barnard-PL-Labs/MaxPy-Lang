@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-124",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        76.0,
+        22.0
+      ],
+      "text": "jit.mgraphics"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autofill",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "relative_coords",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "textfieldvisible",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

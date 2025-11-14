@@ -1,0 +1,46 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-35",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        56.0,
+        22.0
+      ],
+      "text": "capture~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "behavioral-flag (f)",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "maximum-samples",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "signal-vector-indices (up to 10 ints)",
+        "type": [
+          "list"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

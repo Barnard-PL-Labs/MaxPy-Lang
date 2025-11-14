@@ -1,0 +1,53 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-422",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        35.0,
+        22.0
+      ],
+      "text": "sah~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-trigger-value",
+        "default": "0",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "duration",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "thresh",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "triggermode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

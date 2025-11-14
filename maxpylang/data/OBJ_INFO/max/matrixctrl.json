@@ -1,0 +1,168 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-203",
+      "maxclass": "matrixctrl",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "list",
+        "list"
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        130.0,
+        66.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "active",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autosize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bkgndpict",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "cellpict",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "clickedimage",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "clickvalue",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "columns",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "dialmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dialtracking",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "elementcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "horizontalmargin",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "horizontalspacing",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "imagemask",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "inactiveimage",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "invisiblebkgnd",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "one/column",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "one/matrix",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "one/row",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "range",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "rows",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "scale",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "verticalmargin",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "verticalspacing",
+      "type": "atom_long",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

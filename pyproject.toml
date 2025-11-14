@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "maxpylang"
+version = "0.1.0"
+description = "Python API for making MaxMSP patches."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+    {name = "Ranger Liu", email = "ranger.liu@columbia.edu"}
+]
+dependencies = [
+    "numpy>=1.22.0",
+    "sphinx_rtd_theme",
+    "tabulate",
+]
+
+[project.urls]
+Homepage = "http://pypi.python.org/pypi/MaxPyLang/"
+
+[tool.setuptools]
+packages = ["maxpylang"]
+
+[tool.setuptools.package-data]
+maxpylang = ["data/**/*"]

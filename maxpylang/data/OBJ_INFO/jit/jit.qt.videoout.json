@@ -1,0 +1,47 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-173",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        79.0,
+        22.0
+      ],
+      "text": "jit.qt.videoout"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "codecquality",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "colormode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "voc",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "vocmode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

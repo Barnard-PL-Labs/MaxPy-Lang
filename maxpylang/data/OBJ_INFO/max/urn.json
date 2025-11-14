@@ -1,0 +1,44 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-413",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "int",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        26.0,
+        22.0
+      ],
+      "text": "urn"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "limit",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "seed",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

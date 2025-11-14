@@ -1,0 +1,61 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-52",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        44.0,
+        22.0
+      ],
+      "text": "delay~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "maximum-delay-memory",
+        "default": "512",
+        "units": "samples",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "initial-delay-time",
+        "default": "0",
+        "units": "time-value",
+        "type": [
+          "list"
+        ]
+      },
+      {
+        "name": "ramp-time",
+        "default": "0",
+        "units": "time-value",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "delay",
+      "type": "atom",
+      "size": "10"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,40 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-75",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 6,
+      "outlettype": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        60.0,
+        22.0
+      ],
+      "text": "filterdetail"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "numpoints",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

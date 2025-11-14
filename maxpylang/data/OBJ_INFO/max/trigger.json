@@ -1,0 +1,52 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-400",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        43.0,
+        22.0
+      ],
+      "text": "trigger"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "formats",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "constant",
+        "type": [
+          "any"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": "all",
+        "type": "trigger_out"
+      }
+    ]
+  }
+}

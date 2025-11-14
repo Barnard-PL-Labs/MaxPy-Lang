@@ -1,0 +1,45 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-414",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 3,
+      "outlettype": [
+        "bang",
+        "bang",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        24.0,
+        22.0
+      ],
+      "text": "uzi"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "base",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,107 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-197",
+      "maxclass": "gain~",
+      "multichannelvariant": 1,
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "multichannelsignal",
+        ""
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        22.0,
+        140.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "inc",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "interp",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "interpinlet",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "knobcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "multislider",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "orientation",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "relative",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "scale",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "size",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "stripecolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

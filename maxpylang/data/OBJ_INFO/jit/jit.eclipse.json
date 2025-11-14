@@ -1,0 +1,81 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-46",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        58.0,
+        22.0
+      ],
+      "text": "jit.eclipse"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "blue",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "columns",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "green",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "inv",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "op",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "red",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rows",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "thresh",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "tint",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

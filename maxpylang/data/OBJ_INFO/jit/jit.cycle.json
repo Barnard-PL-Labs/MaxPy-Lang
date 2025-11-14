@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-38",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        48.0,
+        22.0
+      ],
+      "text": "jit.cycle"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "index",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "hi",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "lo",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

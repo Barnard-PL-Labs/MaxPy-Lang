@@ -1,0 +1,54 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-148",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        61.0,
+        22.0
+      ],
+      "text": "mc.buffir~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "buffer-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "read-offset",
+        "units": "samples",
+        "type": [
+          "int",
+          "float"
+        ]
+      },
+      {
+        "name": "read-duration",
+        "units": "samples",
+        "type": [
+          "int",
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

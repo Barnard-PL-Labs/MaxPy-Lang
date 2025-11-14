@@ -1,0 +1,129 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-278",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 6,
+      "outlettype": [
+        "multichannelsignal",
+        "multichannelsignal",
+        "multichannelsignal",
+        "multichannelsignal",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        69.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "notebase": 0,
+        "notelist": [
+          100,
+          200,
+          300,
+          400,
+          500,
+          600,
+          700,
+          800,
+          900,
+          1000,
+          1100
+        ],
+        "pitchdetection": 0,
+        "retune": 1,
+        "use_16bit": [
+          0
+        ]
+      },
+      "text": "mc.retune~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "id": "0",
+        "name": "standard pitch",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "correction_ambience_threshold",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "correction_amount",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "correction_bypass",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "correction_threshold",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "enablednotes",
+      "type": "atom",
+      "size": "36"
+    },
+    {
+      "name": "notebase",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "notelist",
+      "type": "symbol",
+      "size": "36"
+    },
+    {
+      "name": "pitchdetection",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "quality",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "reportlatency",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "retune",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "use_16bit",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "windowsize",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,49 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-152",
+      "maxclass": "imovie",
+      "name": "",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "int",
+        "int",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        320.0,
+        240.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "autofit",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "border",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "moviedim",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

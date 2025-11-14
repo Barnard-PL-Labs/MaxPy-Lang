@@ -1,0 +1,63 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-231",
+      "maxclass": "newobj",
+      "numinlets": 16,
+      "numoutlets": 2,
+      "outlettype": [
+        "int",
+        "mpeevent"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        66.0,
+        22.0
+      ],
+      "text": "mpeformat"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "id": "0",
+        "name": "channels",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chanrange",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "masterchan",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "zone",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "add_amt": 1,
+        "type": null
+      }
+    ]
+  }
+}

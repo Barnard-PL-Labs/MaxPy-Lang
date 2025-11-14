@@ -1,0 +1,46 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-51",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        32.0,
+        22.0
+      ],
+      "text": "jit.fill"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "matrix_name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "plane",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "offset",
+      "type": "int",
+      "size": "32"
+    }
+  ],
+  "in/out": {}
+}

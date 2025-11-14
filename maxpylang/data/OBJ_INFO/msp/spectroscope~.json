@@ -1,0 +1,159 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-446",
+      "maxclass": "spectroscope~",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        300.0,
+        100.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "border",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "curvecolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "displaychan",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "domain",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "fgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "interval",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "logamp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "logfreq",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "markercolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "monochrome",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "orientation",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "phasespect",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "range",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "rounded",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "scroll",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "sono",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "sonohicolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "sonolocolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "sonomedcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "sonomedhicolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "sonomedlocolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "sonomonobgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "sonomonofgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

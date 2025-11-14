@@ -1,0 +1,49 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-405",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        67.0,
+        22.0
+      ],
+      "text": "udpreceive"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "port",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "full-packet",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "quiet",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

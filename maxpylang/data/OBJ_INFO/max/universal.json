@@ -1,0 +1,39 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-410",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        57.0,
+        22.0
+      ],
+      "text": "universal"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "mode",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "descend",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

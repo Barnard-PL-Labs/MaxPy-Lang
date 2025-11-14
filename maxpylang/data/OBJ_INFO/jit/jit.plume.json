@@ -1,0 +1,81 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-157",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        53.0,
+        22.0
+      ],
+      "text": "jit.plume"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "intervalmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "wrap",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "x_interval",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "xamount",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "xinterval",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "xoffset",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "y_interval",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "yamount",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "yinterval",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "yoffset",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

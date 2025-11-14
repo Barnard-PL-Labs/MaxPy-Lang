@@ -1,0 +1,36 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-50",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        30.0,
+        22.0
+      ],
+      "text": "jit.fft"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "inverse",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

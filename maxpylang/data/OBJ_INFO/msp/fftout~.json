@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-71",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        42.0,
+        22.0
+      ],
+      "text": "fftout~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "outlet-assignment",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "window-envelope-function",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

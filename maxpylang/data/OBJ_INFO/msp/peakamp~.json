@@ -1,0 +1,48 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-379",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "float"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        65.0,
+        22.0
+      ],
+      "text": "peakamp~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "ms-output-interval",
+        "units": "ms",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "interval",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "signed",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

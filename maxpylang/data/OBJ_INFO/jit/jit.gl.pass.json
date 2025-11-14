@@ -1,0 +1,57 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-79",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "jit_gl_texture",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        59.0,
+        22.0
+      ],
+      "text": "jit.gl.pass"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "child",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "depth_drawto",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "file",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "out_name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "quality",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

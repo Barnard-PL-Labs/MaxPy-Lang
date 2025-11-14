@@ -1,0 +1,46 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-30",
+      "maxclass": "newobj",
+      "numinlets": 4,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        48.0,
+        22.0
+      ],
+      "text": "bgcolor"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "red",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "green",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "blue",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

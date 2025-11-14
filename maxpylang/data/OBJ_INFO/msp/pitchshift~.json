@@ -1,0 +1,74 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-387",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        63.0,
+        22.0
+      ],
+      "text": "pitchshift~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "id": "0",
+        "name": "channels",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "constantlatency",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enabled",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pitchshift",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "pitchshiftcent",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "quality",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "reportlatency",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "usecents",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

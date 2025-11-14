@@ -1,0 +1,161 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-220",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        49.0,
+        22.0
+      ],
+      "text": "jit.wake"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bdownbleed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "bfb",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "bff",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "bgain",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "bleed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "bleftbleed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "brightbleed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "bupbleed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "fb",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "ff",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "gain",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "gdownbleed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "gfb",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "gff",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "ggain",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "gleftbleed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "grightbleed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "gupbleed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "normalize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rdownbleed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rfb",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rff",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rgain",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rleftbleed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rrightbleed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rupbleed",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

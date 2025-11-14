@@ -1,0 +1,44 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-433",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        73.0,
+        22.0
+      ],
+      "text": "zl.indexmap"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "id": "0",
+        "name": "initial-index",
+        "type": [
+          "list"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "zlmaxsize",
+      "type": "atom_long",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

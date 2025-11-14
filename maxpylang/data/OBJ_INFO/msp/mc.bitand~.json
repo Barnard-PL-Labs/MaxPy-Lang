@@ -1,0 +1,48 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-143",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        68.0,
+        22.0
+      ],
+      "text": "mc.bitand~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "bitmask",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "operational-mode",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

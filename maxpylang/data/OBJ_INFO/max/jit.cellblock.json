@@ -1,0 +1,217 @@
+{
+  "default": {
+    "box": {
+      "fontface": 0,
+      "fontname": "Arial",
+      "fontsize": 12.0,
+      "id": "obj-167",
+      "maxclass": "jit.cellblock",
+      "numinlets": 2,
+      "numoutlets": 4,
+      "outlettype": [
+        "list",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        200.0,
+        200.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "automouse",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bblend",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "border",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bordercolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "colhead",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "cols",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "colwidth",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "datadirty",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "fblend",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "fgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "grid",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "gridlinecolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "hcellcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "headercolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "hscroll",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "hsync",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interval",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "just",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "neverdirty",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "outmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "precision",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "readonly",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rowhead",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rowheight",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rows",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "savemode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "sccolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "selmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "selsync",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "sgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "signalmode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "signalusecols",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "stcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "vscroll",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "vsync",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

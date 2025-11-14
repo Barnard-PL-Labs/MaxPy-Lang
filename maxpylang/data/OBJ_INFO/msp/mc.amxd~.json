@@ -1,0 +1,113 @@
+{
+  "default": {
+    "box": {
+      "bgmode": 0,
+      "border": 0,
+      "clickthrough": 0,
+      "data": {
+        "autosave": 1
+      },
+      "enablehscroll": 0,
+      "enablevscroll": 0,
+      "id": "obj-131",
+      "lockeddragscroll": 0,
+      "lockedsize": 0,
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 5,
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "outlettype": [
+        "multichannelsignal",
+        "multichannelsignal",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "parameter_enable": 1,
+        "patchername": "",
+        "patchername_fallback": "/Volumes/<none>/"
+      },
+      "text": "mc.amxd~",
+      "varname": "amxd~[1]",
+      "viewvisibility": 0
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "id": "0",
+        "name": "devicename",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "active",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "annotation_name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "autosave",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autosize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mcisolate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "patchername",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "realtime_params",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "showheader",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

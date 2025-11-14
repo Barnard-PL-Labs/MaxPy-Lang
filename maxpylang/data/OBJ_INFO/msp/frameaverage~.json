@@ -1,0 +1,40 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-80",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        90.0,
+        22.0
+      ],
+      "text": "frameaverage~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "framecount",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "framesize",
+      "type": "atom_long",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

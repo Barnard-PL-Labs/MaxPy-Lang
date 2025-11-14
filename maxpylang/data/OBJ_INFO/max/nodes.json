@@ -1,0 +1,191 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-245",
+      "maxclass": "nodes",
+      "nodesnames": [
+        "1"
+      ],
+      "nsize": [
+        0.2
+      ],
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "",
+        "",
+        ""
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ],
+      "xplace": [
+        0.083333333333333
+      ],
+      "yplace": [
+        0.083333333333333
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "candycane",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "candycane2",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candycane3",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candycane4",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candycane5",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candycane6",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candycane7",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candycane8",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "clickmoveinactive",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "disabledalpha",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "displayknob",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "filternodeschanges",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "knobbordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "knobcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "knobpict",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "knobsize",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "mousemode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "nodecolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "nodenumber",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "nodesnames",
+      "type": "symbol",
+      "size": "64"
+    },
+    {
+      "name": "nsize",
+      "type": "float",
+      "size": "64"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pointcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "xplace",
+      "type": "float",
+      "size": "64"
+    },
+    {
+      "name": "yplace",
+      "type": "float",
+      "size": "64"
+    }
+  ],
+  "in/out": {}
+}

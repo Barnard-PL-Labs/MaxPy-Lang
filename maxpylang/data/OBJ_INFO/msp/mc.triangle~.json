@@ -1,0 +1,47 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-323",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        74.0,
+        22.0
+      ],
+      "text": "mc.triangle~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "peak-value-phase-offset",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "hi",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "lo",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

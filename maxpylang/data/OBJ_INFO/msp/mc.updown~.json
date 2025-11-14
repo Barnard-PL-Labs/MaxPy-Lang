@@ -1,0 +1,45 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-328",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        77.0,
+        22.0
+      ],
+      "text": "mc.updown~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "down",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "level",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "up",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

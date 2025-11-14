@@ -1,0 +1,125 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-303",
+      "maxclass": "preset",
+      "numinlets": 1,
+      "numoutlets": 5,
+      "outlettype": [
+        "preset",
+        "int",
+        "preset",
+        "int",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        100.0,
+        40.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "active1",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "active2",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bubblesize",
+      "type": "int32",
+      "size": "1"
+    },
+    {
+      "name": "circlecolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "clicked1",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "clicked2",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "embed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "emptycolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "margin",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "paramonly",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pattrstorage",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "showtrack",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "spacing",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "stored1",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "stored2",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,47 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-276",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        70.0,
+        22.0
+      ],
+      "text": "pattrmarker"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "invisible",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

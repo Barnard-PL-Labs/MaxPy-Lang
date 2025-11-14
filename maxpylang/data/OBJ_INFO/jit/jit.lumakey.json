@@ -1,0 +1,81 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-119",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        65.0,
+        22.0
+      ],
+      "text": "jit.lumakey"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "ascale",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "bscale",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "fade",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "gscale",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "lum",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "maxkey",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "minkey",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rscale",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "tol",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,67 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-396",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "int",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        47.0,
+        22.0
+      ],
+      "text": "touchin"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "port-channel",
+        "type": [
+          "list"
+        ]
+      },
+      {
+        "name": "channel",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "port",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "device",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "matchport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

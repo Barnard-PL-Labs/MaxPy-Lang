@@ -1,0 +1,35 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-21",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "list"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        28.0,
+        22.0
+      ],
+      "text": "atoi"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "utf8",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,45 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-107",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 3,
+      "outlettype": [
+        "int",
+        "bang",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        33.0,
+        22.0
+      ],
+      "text": "filein"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "filename",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "spool",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

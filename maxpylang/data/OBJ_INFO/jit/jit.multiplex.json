@@ -1,0 +1,61 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-126",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        68.0,
+        22.0
+      ],
+      "text": "jit.multiplex"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autoclear",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "multiplexdim",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "scan_a",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "scan_b",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "truncate",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

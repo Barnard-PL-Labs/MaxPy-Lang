@@ -1,0 +1,78 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-194",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 4,
+      "outlettype": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        62.0,
+        22.0
+      ],
+      "text": "mc.fzero~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "freqmax",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "freqmin",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "onsetamp",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "onsetlist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "onsetperiod",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "onsetpitch",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "period",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "size",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "threshold",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

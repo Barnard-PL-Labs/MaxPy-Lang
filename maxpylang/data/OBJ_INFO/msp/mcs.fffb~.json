@@ -1,0 +1,62 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-339",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        57.0,
+        22.0
+      ],
+      "text": "mcs.fffb~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "number-of-filters",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "1st-filter-frequency",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "filter-frequency-ratios (float)",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "Q",
+        "type": [
+          "list"
+        ]
+      },
+      {
+        "name": "harmonic-series-flag (H)",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

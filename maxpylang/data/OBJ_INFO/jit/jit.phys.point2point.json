@@ -1,0 +1,88 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-149",
+      "linecount": 15,
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        18.0,
+        210.0
+      ],
+      "text": "jit.phys.point2point"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "body1",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "body2",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "collisions",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "position1",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "position2",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "strength",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "stretch",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "worldname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "worldpos",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "worldquat",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

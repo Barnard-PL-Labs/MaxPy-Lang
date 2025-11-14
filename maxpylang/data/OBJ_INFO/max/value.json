@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-415",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        37.0,
+        22.0
+      ],
+      "text": "value"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "initial",
+        "type": [
+          "any"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

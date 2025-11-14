@@ -1,0 +1,72 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-77",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "jit_gl_texture",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        60.0,
+        22.0
+      ],
+      "text": "jit.gl.node"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "adapt",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "capture",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "erase_color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "fsaa",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "out_name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "out_names",
+      "type": "symbol",
+      "size": "32"
+    },
+    {
+      "name": "type",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-148",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 4,
+      "outlettype": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        39.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "mode": 0
+      },
+      "text": "hover"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

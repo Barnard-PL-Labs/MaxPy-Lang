@@ -1,0 +1,56 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-135",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        70.0,
+        22.0
+      ],
+      "text": "jit.p.bounds"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bounds_hi",
+      "type": "float",
+      "size": "30"
+    },
+    {
+      "name": "bounds_lo",
+      "type": "float",
+      "size": "30"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "squish",
+      "type": "float",
+      "size": "30"
+    },
+    {
+      "name": "squish_var",
+      "type": "float",
+      "size": "30"
+    }
+  ],
+  "in/out": {}
+}

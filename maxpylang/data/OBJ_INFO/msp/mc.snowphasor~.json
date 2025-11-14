@@ -1,0 +1,106 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-300",
+      "linecount": 13,
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        18.0,
+        183.0
+      ],
+      "text": "mc.snowphasor~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "busymapname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interval",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "intervalcycle",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "intervaldev",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "perchantriggers",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "prob",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "probdev",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rampdev",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "ramptime",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rate",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "ratedev",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "threshold",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "usebusymap",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,37 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-369",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        55.0,
+        22.0
+      ],
+      "text": "sxformat"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "SysEx",
+        "type": [
+          "list"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

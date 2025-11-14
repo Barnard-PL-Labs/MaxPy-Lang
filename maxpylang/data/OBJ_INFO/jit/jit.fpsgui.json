@@ -1,0 +1,113 @@
+{
+  "default": {
+    "box": {
+      "fontface": 0,
+      "fontname": "Arial",
+      "fontsize": 12.0,
+      "id": "obj-57",
+      "maxclass": "jit.fpsgui",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        80.0,
+        35.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bgcolor2",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "fps",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "htextcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "interval",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "ms",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "planecount",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "timeout",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "type",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "usetimeout",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

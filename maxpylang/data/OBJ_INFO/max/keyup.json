@@ -1,0 +1,33 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-178",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 4,
+      "outlettype": [
+        "int",
+        "int",
+        "int",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        41.0,
+        22.0
+      ],
+      "text": "keyup"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

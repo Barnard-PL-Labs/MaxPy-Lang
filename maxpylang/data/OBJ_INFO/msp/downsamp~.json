@@ -1,0 +1,37 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-56",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        74.0,
+        22.0
+      ],
+      "text": "downsamp~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "downsampled-rate",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

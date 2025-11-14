@@ -1,0 +1,66 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-100",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        51.0,
+        22.0
+      ],
+      "text": "jit.graph"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "brgb",
+      "type": "int",
+      "size": "3"
+    },
+    {
+      "name": "clearit",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "frgb",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "height",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rangehi",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rangelo",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

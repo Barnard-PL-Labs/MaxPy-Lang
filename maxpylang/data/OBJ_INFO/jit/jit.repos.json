@@ -1,0 +1,56 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-179",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        51.0,
+        22.0
+      ],
+      "text": "jit.repos"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "boundmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interpbits",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "offset_x",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "offset_y",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

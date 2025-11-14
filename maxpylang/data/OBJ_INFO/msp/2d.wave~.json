@@ -1,0 +1,69 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-7",
+      "maxclass": "newobj",
+      "numinlets": 4,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        60.0,
+        22.0
+      ],
+      "text": "2d.wave~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "buffer-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "start and end-points",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "number-of-output-channels",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "rows",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": 3,
+        "acc_vals": [
+          1,
+          2,
+          4
+        ],
+        "type": "signal"
+      }
+    ]
+  }
+}

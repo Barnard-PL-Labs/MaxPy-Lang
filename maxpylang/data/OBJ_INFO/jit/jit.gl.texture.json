@@ -1,0 +1,241 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-93",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_gl_texture",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        70.0,
+        22.0
+      ],
+      "text": "jit.gl.texture"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "adapt",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "anisotropy",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "apply",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "autoclear",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autoscale",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "blendcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bordercolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "capture_buffer",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "capture_depthbits",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "capture_source",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "colormode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "compare_func",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "compare_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "compress",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "correction",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "debug",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "defaultimage",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "3"
+    },
+    {
+      "name": "dstdimend",
+      "type": "int",
+      "size": "3"
+    },
+    {
+      "name": "dstdimstart",
+      "type": "int",
+      "size": "3"
+    },
+    {
+      "name": "erase_color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "file",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "filter",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "flip",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "function",
+      "type": "symbol",
+      "size": "2"
+    },
+    {
+      "name": "mipmap",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "offset",
+      "type": "int",
+      "size": "3"
+    },
+    {
+      "name": "operand",
+      "type": "symbol",
+      "size": "6"
+    },
+    {
+      "name": "priority",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rectangle",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "thru",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "source",
+      "type": "symbol",
+      "size": "6"
+    },
+    {
+      "name": "srcdimend",
+      "type": "int",
+      "size": "3"
+    },
+    {
+      "name": "srcdimstart",
+      "type": "int",
+      "size": "3"
+    },
+    {
+      "name": "texgen",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "texture_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "type",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "usedstdim",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "usesrcdim",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "weight",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "wrap",
+      "type": "symbol",
+      "size": "3"
+    }
+  ],
+  "in/out": {}
+}

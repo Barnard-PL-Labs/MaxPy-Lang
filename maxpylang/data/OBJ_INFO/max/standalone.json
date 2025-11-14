@@ -1,0 +1,122 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-355",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        67.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "allwindowsactive": 0,
+        "appicon_mac": "",
+        "appicon_win": "",
+        "audiosupport": 1,
+        "bundleidentifier": "com.mycompany.myprogram",
+        "cantclosetoplevelpatchers": 1,
+        "cefsupport": 1,
+        "copysupport": 1,
+        "database": 0,
+        "extensions": 1,
+        "gensupport": 1,
+        "midisupport": 1,
+        "noloadbangdefeating": 0,
+        "overdrive": 0,
+        "preffilename": "Max 8 Preferences",
+        "searchformissingfiles": 1,
+        "statusvisible": 1,
+        "usesearchpath": 0
+      },
+      "text": "standalone"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "allwindowsactive",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "appicon_mac",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "appicon_win",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "bundleidentifier",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "cantclosetoplevelpatchers",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "cefsupport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "copysupport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "database",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "gensupport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "noloadbangdefeating",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "overdrive",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "preffilename",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "searchformissingfiles",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "statusvisible",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "usesearchpath",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

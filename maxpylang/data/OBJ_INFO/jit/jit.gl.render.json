@@ -1,0 +1,186 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-85",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "bang",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        68.0,
+        22.0
+      ],
+      "text": "jit.gl.render"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "accelerated",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "aux_buffers",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "camera",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "copy_texture",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "doublebuffer",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "draw_buffer",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "drawto",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "erase_color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "erase_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "far_clip",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "fsaa",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "geom_rows",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "high_res",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "lens_angle",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "light_ambient",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "light_diffuse",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "light_global_ambient",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "light_position",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "light_specular",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "lookat",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "near_clip",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "point_atten",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "point_fade",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "primitive",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "quality",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rotate_order",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "shared_context",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "stereo",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "sync",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "up",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "verbose",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

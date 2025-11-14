@@ -1,0 +1,79 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-122",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 3,
+      "outlettype": [
+        "signal",
+        "signal",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        48.0,
+        22.0
+      ],
+      "text": "matrix~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "inlets",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "outlets",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "default-connect-gain",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "ramp",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "type": null
+      }
+    ],
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": 1,
+        "add_amt": 1,
+        "type": {
+          "default": "signal",
+          "last": [
+            1,
+            ""
+          ]
+        }
+      }
+    ]
+  }
+}

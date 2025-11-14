@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-36",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        68.0,
+        22.0
+      ],
+      "text": "jit.convolve"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "boundmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "origin",
+      "type": "int",
+      "size": "2"
+    }
+  ],
+  "in/out": {}
+}

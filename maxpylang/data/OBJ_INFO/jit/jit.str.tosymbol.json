@@ -1,0 +1,36 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-205",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        85.0,
+        22.0
+      ],
+      "text": "jit.str.tosymbol"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "outsym",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

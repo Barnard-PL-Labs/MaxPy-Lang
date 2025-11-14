@@ -1,0 +1,36 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-152",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        63.0,
+        22.0
+      ],
+      "text": "jit.planeop"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "op",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

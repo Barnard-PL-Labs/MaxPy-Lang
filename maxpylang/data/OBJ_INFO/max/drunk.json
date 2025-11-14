@@ -1,0 +1,43 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-102",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        39.0,
+        22.0
+      ],
+      "text": "drunk"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "maximum value",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "step size",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

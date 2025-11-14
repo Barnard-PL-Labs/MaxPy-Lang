@@ -1,0 +1,53 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-467",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        65.0,
+        22.0
+      ],
+      "text": "trapezoid~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "ramp-up",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "ramp-down",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "hi",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "lo",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,66 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-74",
+      "maxclass": "newobj",
+      "numinlets": 9,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        63.0,
+        22.0
+      ],
+      "text": "jit.gl.mesh"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "auto_bitangents",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "auto_colors",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "auto_normals",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "auto_tangents",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "cache_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "color_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "draw_mode",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

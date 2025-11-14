@@ -1,0 +1,37 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-176",
+      "maxclass": "jweb",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        320.0,
+        240.0
+      ],
+      "rendermode": 0
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "rendermode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "url",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-455",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "signal",
+        "",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        40.0,
+        22.0
+      ],
+      "text": "sync~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "rtport",
+      "type": "symbol",
+      "size": "1",
+      "force": "1"
+    }
+  ],
+  "in/out": {}
+}

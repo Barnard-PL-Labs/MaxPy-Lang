@@ -1,0 +1,56 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-187",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        47.0,
+        22.0
+      ],
+      "text": "jit.rubix"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "cols",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dots",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "prob",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "probmono",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rows",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

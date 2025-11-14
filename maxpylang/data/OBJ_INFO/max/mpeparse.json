@@ -1,0 +1,54 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-232",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 10,
+      "outlettype": [
+        "",
+        "",
+        "",
+        "",
+        "int",
+        "",
+        "int",
+        "int",
+        "int",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        62.0,
+        22.0
+      ],
+      "text": "mpeparse"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "hires",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "index",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "strict",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,91 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-68",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        69.0,
+        22.0
+      ],
+      "text": "jit.gl.handle"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "auto_handle",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "auto_rotate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "auto_time",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "filters",
+      "type": "symbol",
+      "size": "10"
+    },
+    {
+      "name": "hilite_color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "hover",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "radius",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rgb_axes",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "select_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "tracking",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "ui_priority",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "visible",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

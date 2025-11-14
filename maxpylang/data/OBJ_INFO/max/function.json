@@ -1,0 +1,190 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-129",
+      "maxclass": "function",
+      "numinlets": 1,
+      "numoutlets": 4,
+      "outlettype": [
+        "float",
+        "",
+        "",
+        "bang"
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        200.0,
+        100.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "autosustain",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "clickadd",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "clickmove",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "clicksustain",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "cursor",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "cursorcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "domain",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "grid",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "gridcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "gridstep_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "gridstep_y",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "legend",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "linecolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "linethickness",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mousemode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mousereport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "outputmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pointalign",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "pointcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "pointsize",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "range",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "snap2grid",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "sustaincolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "zoom_x",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "zoom_y",
+      "type": "float",
+      "size": "2"
+    }
+  ],
+  "in/out": {}
+}

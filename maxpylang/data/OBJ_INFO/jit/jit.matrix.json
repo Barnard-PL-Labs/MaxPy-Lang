@@ -1,0 +1,111 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-121",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        53.0,
+        22.0
+      ],
+      "text": "jit.matrix"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "adapt",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "dimstride",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "dstdimend",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "dstdimstart",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "interp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "planecount",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "planemap",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "thru",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "size",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "srcdimend",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "srcdimstart",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "usedstdim",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "usesrcdim",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "type",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,312 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-83",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_gl_texture",
+        ""
+      ],
+      "patcher": {
+        "fileversion": 1,
+        "appversion": {
+          "major": 8,
+          "minor": 3,
+          "revision": 1,
+          "architecture": "x64",
+          "modernui": 1
+        },
+        "classnamespace": "jit.gen",
+        "rect": [
+          0.0,
+          0.0,
+          600.0,
+          450.0
+        ],
+        "bglocked": 0,
+        "openinpresentation": 0,
+        "default_fontsize": 12.0,
+        "default_fontface": 0,
+        "default_fontname": "Arial",
+        "gridonopen": 1,
+        "gridsize": [
+          15.0,
+          15.0
+        ],
+        "gridsnaponopen": 1,
+        "objectsnaponopen": 1,
+        "statusbarvisible": 2,
+        "toolbarvisible": 1,
+        "lefttoolbarpinned": 0,
+        "toptoolbarpinned": 0,
+        "righttoolbarpinned": 0,
+        "bottomtoolbarpinned": 0,
+        "toolbars_unpinned_last_save": 0,
+        "tallnewobj": 0,
+        "boxanimatetime": 200,
+        "enablehscroll": 1,
+        "enablevscroll": 1,
+        "devicewidth": 0.0,
+        "description": "",
+        "digest": "",
+        "tags": "",
+        "style": "",
+        "subpatcher_template": "",
+        "assistshowspatchername": 0,
+        "boxes": [
+          {
+            "box": {
+              "id": "obj-1",
+              "maxclass": "newobj",
+              "numinlets": 0,
+              "numoutlets": 1,
+              "outlettype": [
+                ""
+              ],
+              "patching_rect": [
+                50.0,
+                14.0,
+                28.0,
+                22.0
+              ],
+              "text": "in 1"
+            }
+          },
+          {
+            "box": {
+              "id": "obj-2",
+              "maxclass": "newobj",
+              "numinlets": 0,
+              "numoutlets": 1,
+              "outlettype": [
+                ""
+              ],
+              "patching_rect": [
+                305.0,
+                14.0,
+                28.0,
+                22.0
+              ],
+              "text": "in 2"
+            }
+          },
+          {
+            "box": {
+              "id": "obj-3",
+              "maxclass": "newobj",
+              "numinlets": 2,
+              "numoutlets": 1,
+              "outlettype": [
+                ""
+              ],
+              "patching_rect": [
+                176.0,
+                149.0,
+                29.5,
+                22.0
+              ],
+              "text": "+"
+            }
+          },
+          {
+            "box": {
+              "id": "obj-4",
+              "maxclass": "newobj",
+              "numinlets": 1,
+              "numoutlets": 0,
+              "patching_rect": [
+                176.0,
+                418.0,
+                35.0,
+                22.0
+              ],
+              "text": "out 1"
+            }
+          }
+        ],
+        "lines": [
+          {
+            "patchline": {
+              "destination": [
+                "obj-3",
+                0
+              ],
+              "source": [
+                "obj-1",
+                0
+              ]
+            }
+          },
+          {
+            "patchline": {
+              "destination": [
+                "obj-3",
+                1
+              ],
+              "source": [
+                "obj-2",
+                0
+              ]
+            }
+          },
+          {
+            "patchline": {
+              "destination": [
+                "obj-4",
+                0
+              ],
+              "source": [
+                "obj-3",
+                0
+              ]
+            }
+          }
+        ]
+      },
+      "patching_rect": [
+        100.0,
+        100.0,
+        49.0,
+        22.0
+      ],
+      "text": "jit.gl.pix"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "activeinput",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "adapt",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "colormode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "depth",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "dimscale",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "dirty",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "displaylist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "edges",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "exportfolder",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "file",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "gen",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "inputs",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "out_name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "outputs",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rect",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "rectangle",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "thru",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "shape",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "subdiv",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "t",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "texrect",
+      "type": "float",
+      "size": "128"
+    },
+    {
+      "name": "title",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "type",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "wrap",
+      "type": "int",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,92 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-487",
+      "maxclass": "zplane~",
+      "numinlets": 5,
+      "numoutlets": 4,
+      "outlettype": [
+        "list",
+        "list",
+        "list",
+        "list"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        256.0,
+        256.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "axiscolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "circlebordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "fgcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "gridlinecolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "hlcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "order",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pconstrain",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "polezerocolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "rounded",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

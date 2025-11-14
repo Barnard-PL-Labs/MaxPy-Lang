@@ -1,0 +1,48 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-50",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        27.0,
+        22.0
+      ],
+      "text": "clip"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "minimum",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "maximum",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

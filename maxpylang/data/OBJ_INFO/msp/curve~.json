@@ -1,0 +1,54 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-47",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        45.0,
+        22.0
+      ],
+      "text": "curve~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-value",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "curve-parameter",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "maxpoints",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "shapemode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,101 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-303",
+      "maxclass": "newobj",
+      "numinlets": 4,
+      "numoutlets": 2,
+      "outlettype": [
+        "multichannelsignal",
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        22.0
+      ],
+      "text": "mc.stash~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "id": "0",
+        "name": "sample-thresh",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "id": "1",
+        "name": "advance-thresh",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "advancelevel",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "advancetriggermode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dir",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "duration",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "interp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "maxsize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "samplelevel",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "sampletriggermode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "size",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "writemode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

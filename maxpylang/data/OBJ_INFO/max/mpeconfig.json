@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-230",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "int",
+        "mpeevent"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        22.0
+      ],
+      "text": "mpeconfig"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chanrange",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "masterchan",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

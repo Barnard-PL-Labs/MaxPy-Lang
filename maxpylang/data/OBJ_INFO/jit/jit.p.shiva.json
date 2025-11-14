@@ -1,0 +1,66 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-136",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        59.0,
+        22.0
+      ],
+      "text": "jit.p.shiva"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "emit",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "emit_var",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "init",
+      "type": "float",
+      "size": "30"
+    },
+    {
+      "name": "init_var",
+      "type": "float",
+      "size": "30"
+    },
+    {
+      "name": "life",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "life_var",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

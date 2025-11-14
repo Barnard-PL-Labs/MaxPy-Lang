@@ -1,0 +1,63 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-91",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        39.0,
+        22.0
+      ],
+      "text": "gate~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "number-of-outlets",
+        "default": "1",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "initial-open-outlet",
+        "default": "0",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "ramptime",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "stepmode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "type": "signal"
+      }
+    ]
+  }
+}

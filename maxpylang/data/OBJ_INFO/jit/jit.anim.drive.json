@@ -1,0 +1,146 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-11",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        76.0,
+        22.0
+      ],
+      "text": "jit.anim.drive"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "active",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "automatic",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "drawto",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "ease",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "easefunc",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "easein",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "easeout",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "evalreport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "position",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "quat",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "scale",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "speed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "spring_damp",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "spring_mass",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "spring_stiff",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "spring_thresh",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "ui_dict_layout",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "targetname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "ui_listen",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "ui_map",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "ui_map_clone",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "ui_priority",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

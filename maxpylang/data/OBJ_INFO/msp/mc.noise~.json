@@ -1,0 +1,35 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-231",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        22.0
+      ],
+      "text": "mc.noise~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "classic",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

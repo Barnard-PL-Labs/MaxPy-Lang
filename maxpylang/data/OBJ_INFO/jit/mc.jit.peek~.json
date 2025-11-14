@@ -1,0 +1,52 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-224",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 3,
+      "outlettype": [
+        "multichannelsignal",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        73.0,
+        22.0
+      ],
+      "text": "mc.jit.peek~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "interp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "matrix_name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "normalize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "plane",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,50 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-261",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        67.0,
+        22.0
+      ],
+      "text": "opendialog"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "folder",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "soundfile",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "file-types",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

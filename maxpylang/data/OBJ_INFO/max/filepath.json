@@ -1,0 +1,44 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-108",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        47.0,
+        22.0
+      ],
+      "text": "filepath"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "path-type",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "preference",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

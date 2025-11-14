@@ -1,0 +1,111 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-234",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        26.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "embed": 0
+      },
+      "text": "mtr"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "tracks",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autostart",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autostarttime",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "bindto",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "embed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "length",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "loop",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "nextmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "quantize",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "selection",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "speed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "sync",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "trackspeed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "transport",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

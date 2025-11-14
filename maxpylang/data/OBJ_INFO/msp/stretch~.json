@@ -1,0 +1,110 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-450",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        52.0,
+        22.0
+      ],
+      "text": "stretch~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "id": "0",
+        "name": "buffer-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "basictuning",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "followglobaltempo",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "formant",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "formantcorrection",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "originallength",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "originaltempo",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "pitchcorrection",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pitchshift",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "pitchshiftcent",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "progress_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "quality",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "readagain",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "slurtime",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "stretch",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

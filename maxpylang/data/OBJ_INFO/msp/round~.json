@@ -1,0 +1,42 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-421",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        46.0,
+        22.0
+      ],
+      "text": "round~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "int or float",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "nearest",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

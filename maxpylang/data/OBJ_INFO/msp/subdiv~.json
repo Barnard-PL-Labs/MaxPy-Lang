@@ -1,0 +1,70 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-452",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "signal",
+        "signal",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        50.0,
+        22.0
+      ],
+      "text": "subdiv~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "id": "0",
+        "name": "subdivisions",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "div",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "lockprob",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pattern",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "prob",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "silentmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "syncupdate",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

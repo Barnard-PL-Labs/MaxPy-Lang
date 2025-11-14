@@ -1,0 +1,67 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-291",
+      "maxclass": "playbar",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        320.0,
+        16.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "disabledcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "hideloop",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "hiderwff",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "refreshrate",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "selectioncolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,37 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-117",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        43.0,
+        22.0
+      ],
+      "text": "fontlist"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "font-type",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

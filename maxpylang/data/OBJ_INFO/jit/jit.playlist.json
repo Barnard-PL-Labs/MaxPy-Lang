@@ -1,0 +1,128 @@
+{
+  "default": {
+    "box": {
+      "data": {
+        "clips": []
+      },
+      "drawto": "",
+      "id": "obj-155",
+      "loop": 0,
+      "maxclass": "jit.playlist",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "jit_matrix",
+        "",
+        "dictionary"
+      ],
+      "output_texture": 0,
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        150.0,
+        92.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "accentcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "allowreorder",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "clipheight",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "drawto",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "elementcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "expansion",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "loop",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "loopreport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "output_texture",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "reportprogress",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "selectioncolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "showname",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,61 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-67",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        86.0,
+        22.0
+      ],
+      "text": "jit.gl.gridshape"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "cache_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "displaylist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "gridmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rad_minor",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "shape",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

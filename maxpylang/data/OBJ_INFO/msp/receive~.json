@@ -1,0 +1,47 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-414",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        54.0,
+        22.0
+      ],
+      "text": "receive~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "object-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,67 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-286",
+      "maxclass": "newobj",
+      "numinlets": 6,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        63.0,
+        22.0
+      ],
+      "text": "mc.scale~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "minimum-in-value",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "maximum-in-value",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "minimum-out-value",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "maximum-out-value",
+        "type": [
+          "number"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "scaling-curve",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "classic",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

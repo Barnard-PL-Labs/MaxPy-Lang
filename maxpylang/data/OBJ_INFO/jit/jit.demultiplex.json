@@ -1,0 +1,52 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-39",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "jit_matrix",
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        81.0,
+        22.0
+      ],
+      "text": "jit.demultiplex"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autoclear",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "demultiplexdim",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "scan_a",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "scan_b",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,36 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-223",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        50.0,
+        22.0
+      ],
+      "text": "jit.xfade"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "xfade",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

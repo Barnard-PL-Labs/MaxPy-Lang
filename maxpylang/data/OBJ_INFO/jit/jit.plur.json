@@ -1,0 +1,81 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-158",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        41.0,
+        22.0
+      ],
+      "text": "jit.plur"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "colormode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "gang",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "hi",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "lo",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "scale",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "x_range",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "x_step",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "y_range",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "y_step",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

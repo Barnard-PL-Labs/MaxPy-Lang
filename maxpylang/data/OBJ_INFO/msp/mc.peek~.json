@@ -1,0 +1,48 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-249",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        61.0,
+        22.0
+      ],
+      "text": "mc.peek~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "buffer-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "buffer-channel",
+        "default": "1",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "clipping-enable-flag",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

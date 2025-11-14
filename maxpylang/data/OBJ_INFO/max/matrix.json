@@ -1,0 +1,79 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-200",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 3,
+      "outlettype": [
+        "dictionary",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        41.0,
+        22.0
+      ],
+      "text": "matrix"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "id": "0",
+        "name": "number-of-inputs",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "id": "1",
+        "name": "number-of-outputs",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "id": "0",
+        "name": "default-connect-gain",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "defaultgain",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "inhibit",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "inrange",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "outscale",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "scalemode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

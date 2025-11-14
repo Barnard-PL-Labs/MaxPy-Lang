@@ -1,0 +1,52 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-368",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        42.0,
+        22.0
+      ],
+      "text": "switch"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "inlets",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "initial",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "a",
+        "index": "all",
+        "add_amt": 1,
+        "type": null
+      }
+    ]
+  }
+}

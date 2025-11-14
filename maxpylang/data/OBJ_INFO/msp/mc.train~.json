@@ -1,0 +1,72 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-320",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 3,
+      "outlettype": [
+        "multichannelsignal",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        58.0,
+        22.0
+      ],
+      "text": "mc.train~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "inter-pulse-interval",
+        "type": [
+          "number"
+        ],
+        "units": "ms"
+      },
+      {
+        "name": "pulse-width",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "phase",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "interval",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "phase",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "resetmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "width",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

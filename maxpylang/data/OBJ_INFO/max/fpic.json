@@ -1,0 +1,66 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-121",
+      "maxclass": "fpic",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "jit_matrix"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        100.0,
+        50.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "alpha",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "autofit",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "destrect",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "embed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "forceaspect",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pic",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "xoffset",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "yoffset",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

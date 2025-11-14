@@ -1,0 +1,39 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-401",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 3,
+      "outlettype": [
+        "int",
+        "int",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        43.0,
+        22.0
+      ],
+      "text": "trough"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "value",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,65 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-129",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        67.0,
+        22.0
+      ],
+      "text": "jit.net.send"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "connected",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "host",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "ip",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "latency",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "nagle",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "port",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "report",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,261 @@
+{
+  "default": {
+    "box": {
+      "data": {
+        "patcher": {
+          "fileversion": 1,
+          "appversion": {
+            "major": 8,
+            "minor": 3,
+            "revision": 1,
+            "architecture": "x64",
+            "modernui": 1
+          },
+          "classnamespace": "dsp.gen",
+          "rect": [
+            0.0,
+            0.0,
+            600.0,
+            450.0
+          ],
+          "bglocked": 0,
+          "openinpresentation": 0,
+          "default_fontsize": 12.0,
+          "default_fontface": 0,
+          "default_fontname": "Arial",
+          "gridonopen": 1,
+          "gridsize": [
+            15.0,
+            15.0
+          ],
+          "gridsnaponopen": 1,
+          "objectsnaponopen": 1,
+          "statusbarvisible": 2,
+          "toolbarvisible": 1,
+          "lefttoolbarpinned": 0,
+          "toptoolbarpinned": 0,
+          "righttoolbarpinned": 0,
+          "bottomtoolbarpinned": 0,
+          "toolbars_unpinned_last_save": 0,
+          "tallnewobj": 0,
+          "boxanimatetime": 200,
+          "enablehscroll": 1,
+          "enablevscroll": 1,
+          "devicewidth": 0.0,
+          "description": "",
+          "digest": "",
+          "tags": "",
+          "style": "",
+          "subpatcher_template": "",
+          "assistshowspatchername": 0,
+          "boxes": [
+            {
+              "box": {
+                "maxclass": "newobj",
+                "text": "in 1",
+                "numoutlets": 1,
+                "outlettype": [
+                  ""
+                ],
+                "id": "obj-1",
+                "patching_rect": [
+                  50.0,
+                  14.0,
+                  28.0,
+                  22.0
+                ],
+                "numinlets": 0
+              }
+            },
+            {
+              "box": {
+                "maxclass": "newobj",
+                "text": "in 2",
+                "numoutlets": 1,
+                "outlettype": [
+                  ""
+                ],
+                "id": "obj-2",
+                "patching_rect": [
+                  305.0,
+                  14.0,
+                  28.0,
+                  22.0
+                ],
+                "numinlets": 0
+              }
+            },
+            {
+              "box": {
+                "maxclass": "newobj",
+                "text": "+",
+                "numoutlets": 1,
+                "outlettype": [
+                  ""
+                ],
+                "id": "obj-3",
+                "patching_rect": [
+                  176.0,
+                  149.0,
+                  29.5,
+                  22.0
+                ],
+                "numinlets": 2
+              }
+            },
+            {
+              "box": {
+                "maxclass": "newobj",
+                "text": "out 1",
+                "numoutlets": 0,
+                "id": "obj-4",
+                "patching_rect": [
+                  176.0,
+                  418.0,
+                  35.0,
+                  22.0
+                ],
+                "numinlets": 1
+              }
+            }
+          ],
+          "lines": [
+            {
+              "patchline": {
+                "source": [
+                  "obj-3",
+                  0
+                ],
+                "destination": [
+                  "obj-4",
+                  0
+                ]
+              }
+            },
+            {
+              "patchline": {
+                "source": [
+                  "obj-2",
+                  0
+                ],
+                "destination": [
+                  "obj-3",
+                  1
+                ]
+              }
+            },
+            {
+              "patchline": {
+                "source": [
+                  "obj-1",
+                  0
+                ],
+                "destination": [
+                  "obj-3",
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "id": "obj-201",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        55.0,
+        22.0
+      ],
+      "text": "mc.gen~",
+      "wrapper_uniquekey": "u590002919"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "patcher-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autoexport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "cpu",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "cpumeasure",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dumpoutlet",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "exportfolder",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "exportname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "exportnotifier",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "exportscript",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "exportscriptargs",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "gen",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "nocache",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "poll",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "title",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

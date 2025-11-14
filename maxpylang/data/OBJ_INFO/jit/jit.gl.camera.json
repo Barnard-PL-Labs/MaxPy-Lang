@@ -1,0 +1,161 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-63",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_gl_texture",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        73.0,
+        22.0
+      ],
+      "text": "jit.gl.camera"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "adapt",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "capture",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "colormask",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "direction",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "drawto",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "erase_color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "far_clip",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "frustum",
+      "type": "float",
+      "size": "6"
+    },
+    {
+      "name": "fsaa",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "layer",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "lens_angle",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "locklook",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "lookat",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "near_clip",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "ortho",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "out_name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "out_names",
+      "type": "symbol",
+      "size": "32"
+    },
+    {
+      "name": "proj_matrix",
+      "type": "float",
+      "size": "16"
+    },
+    {
+      "name": "projection_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "tripod",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "type",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "view_matrix",
+      "type": "float",
+      "size": "16"
+    },
+    {
+      "name": "viewport",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "viewproj_matrix",
+      "type": "float",
+      "size": "16"
+    },
+    {
+      "name": "vp_mode",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

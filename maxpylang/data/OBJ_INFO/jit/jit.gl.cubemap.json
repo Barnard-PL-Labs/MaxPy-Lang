@@ -1,0 +1,86 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-65",
+      "maxclass": "newobj",
+      "numinlets": 6,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_gl_texture",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        83.0,
+        22.0
+      ],
+      "text": "jit.gl.cubemap"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "adapt",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autotype",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "bordercolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "edge_length",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "file",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "filter",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "level",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "matrix_name",
+      "type": "symbol",
+      "size": "6"
+    },
+    {
+      "name": "mipmap",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "type",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "wrap",
+      "type": "symbol",
+      "size": "3"
+    }
+  ],
+  "in/out": {}
+}

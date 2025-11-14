@@ -1,0 +1,46 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-82",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        65.0,
+        22.0
+      ],
+      "text": "jit.gl.picker"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "filters",
+      "type": "symbol",
+      "size": "10"
+    },
+    {
+      "name": "hover",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "ui_priority",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

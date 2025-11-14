@@ -1,0 +1,61 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-116",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        53.0,
+        22.0
+      ],
+      "text": "jit.linden"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "boundmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "ignore",
+      "type": "symbol",
+      "size": "128"
+    },
+    {
+      "name": "leftbranch",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "production",
+      "type": "symbol",
+      "size": "200"
+    },
+    {
+      "name": "rightbranch",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "wildcard",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

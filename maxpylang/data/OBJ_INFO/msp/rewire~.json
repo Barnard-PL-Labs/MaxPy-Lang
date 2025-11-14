@@ -1,0 +1,48 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-419",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 6,
+      "outlettype": [
+        "signal",
+        "signal",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        48.0,
+        22.0
+      ],
+      "text": "rewire~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "device",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "outputs",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,239 @@
+{
+  "default": {
+    "box": {
+      "dividers": "none",
+      "fontface": 0,
+      "fontname": "Arial",
+      "fontsize": 12.0,
+      "id": "obj-67",
+      "incolormap": "none",
+      "maxclass": "crosspatch",
+      "numinlets": 1,
+      "numins": 4,
+      "numoutlets": 2,
+      "numouts": 4,
+      "outcolormap": "none",
+      "outlettype": [
+        "",
+        "dictionary"
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        280.0,
+        80.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "allowdisabled",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candycane",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "candycane2",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candycane3",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candycane4",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candycane5",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candycane6",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candycane7",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candycane8",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "candymode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "colorlabels",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "connectacrossdividers",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dividercolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "dividers",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "embed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "exclusive",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "gaincaption",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "gaindragmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "gainradius",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "gainstyle",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "incolormap",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "initialgain",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "inlabels",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "labelheight",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "labelwidth",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "linecolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "maxgain",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "numins",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "numouts",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "outcolormap",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "outlabels",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "overgaincolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "preservegain",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "showgain",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "showlabels",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

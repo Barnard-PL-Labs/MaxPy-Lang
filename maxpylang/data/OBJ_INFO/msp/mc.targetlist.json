@@ -1,0 +1,67 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-316",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "setvalue",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        73.0,
+        22.0
+      ],
+      "text": "mc.targetlist"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "id": "0",
+        "name": "prepend",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "id": "0",
+        "name": "voice index",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "id": "0",
+        "name": "inlet count",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "listmode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "n",
+        "index": "all",
+        "comparitor": ">3",
+        "type": null
+      }
+    ]
+  }
+}

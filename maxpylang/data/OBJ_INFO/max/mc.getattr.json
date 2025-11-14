@@ -1,0 +1,55 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-209",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 4,
+      "outlettype": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        62.0,
+        22.0
+      ],
+      "text": "mc.getattr"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "attribute",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "attr",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "listen",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "prefix",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

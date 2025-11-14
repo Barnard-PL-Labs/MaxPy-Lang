@@ -1,0 +1,39 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-431",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        42.0,
+        22.0
+      ],
+      "text": "send~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "object-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

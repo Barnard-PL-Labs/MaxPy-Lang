@@ -1,0 +1,67 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-394",
+      "maxclass": "toggle",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "int"
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        24.0,
+        24.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "checkedcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "thickness",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "uncheckedcolor",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

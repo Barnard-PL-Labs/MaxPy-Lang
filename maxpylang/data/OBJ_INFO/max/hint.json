@@ -1,0 +1,34 @@
+{
+  "default": {
+    "box": {
+      "hint": "Set hint text with the 'set' message",
+      "id": "obj-146",
+      "maxclass": "hint",
+      "numinlets": 1,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        100.0,
+        20.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "delay",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enabled",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

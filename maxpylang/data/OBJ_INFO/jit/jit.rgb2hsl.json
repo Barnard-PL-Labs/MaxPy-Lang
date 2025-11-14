@@ -1,0 +1,61 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-182",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        60.0,
+        22.0
+      ],
+      "text": "jit.rgb2hsl"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "hoffset",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "hscale",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "loffset",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "lscale",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "soffset",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "sscale",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

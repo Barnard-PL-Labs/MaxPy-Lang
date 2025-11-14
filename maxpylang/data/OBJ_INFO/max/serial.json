@@ -1,0 +1,135 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-339",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "int",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        37.0,
+        22.0
+      ],
+      "text": "serial"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "portname",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "port",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "rate",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "data",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "stop",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "parity",
+        "type": [
+          "int",
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autoopen",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "baud",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bufsize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "chunk",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "databits",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "defer",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "drain",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dtr",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parity",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "poll",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "serport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "stopbits",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "xonxoff",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

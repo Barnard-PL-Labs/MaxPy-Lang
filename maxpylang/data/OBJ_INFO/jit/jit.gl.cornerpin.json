@@ -1,0 +1,126 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-64",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        83.0,
+        22.0
+      ],
+      "text": "jit.gl.cornerpin"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "colormode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "corner_color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "corner_radius",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "cornermode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "displaylist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "drawcorners",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enable_mouse",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "hover",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "invert_corners",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "lower_left",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "lower_right",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "mousereport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "preserve_aspect",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rect_tex",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "texturename",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "ui_priority",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "upper_left",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "upper_right",
+      "type": "float",
+      "size": "2"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,47 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-77",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        37.0,
+        22.0
+      ],
+      "text": "delay"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "time",
+        "type": [
+          "any"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "delaytime",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "quantize",
+      "type": "atom",
+      "size": "10"
+    }
+  ],
+  "in/out": {}
+}

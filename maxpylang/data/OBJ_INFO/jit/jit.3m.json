@@ -1,0 +1,48 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-7",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 4,
+      "outlettype": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        37.0,
+        22.0
+      ],
+      "text": "jit.3m"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "max",
+      "type": "atom",
+      "size": "32"
+    },
+    {
+      "name": "mean",
+      "type": "atom",
+      "size": "32"
+    },
+    {
+      "name": "min",
+      "type": "atom",
+      "size": "32"
+    }
+  ],
+  "in/out": {}
+}

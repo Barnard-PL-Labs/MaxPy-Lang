@@ -1,0 +1,49 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-204",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 5,
+      "outlettype": [
+        "jit_matrix",
+        "jit_matrix",
+        "jit_matrix",
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        73.0,
+        22.0
+      ],
+      "text": "jit.str.regexp"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "descriptor",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "re",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "substitute",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

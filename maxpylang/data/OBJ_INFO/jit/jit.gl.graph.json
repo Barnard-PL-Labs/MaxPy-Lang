@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-66",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        22.0
+      ],
+      "text": "jit.gl.graph"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "circpoints",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "radial",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "radialphase",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "radialradius",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

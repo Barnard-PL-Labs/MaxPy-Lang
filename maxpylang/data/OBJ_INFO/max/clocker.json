@@ -1,0 +1,74 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-51",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "float"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        47.0,
+        22.0
+      ],
+      "text": "clocker"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "time-interval",
+        "type": [
+          "int",
+          "symbol",
+          "float"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "active",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autostart",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autostarttime",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "defer",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "interval",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "quantize",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "transport",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

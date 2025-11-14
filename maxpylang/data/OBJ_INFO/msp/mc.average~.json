@@ -1,0 +1,49 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-139",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        78.0,
+        22.0
+      ],
+      "text": "mc.average~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "max-averaging-interval",
+        "units": "samples",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "averaging-mode",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "mode",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

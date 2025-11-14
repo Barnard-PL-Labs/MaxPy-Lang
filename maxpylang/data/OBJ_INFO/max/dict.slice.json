@@ -1,0 +1,36 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-92",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "dictionary",
+        "dictionary"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        55.0,
+        22.0
+      ],
+      "text": "dict.slice"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "keys",
+      "type": "symbol",
+      "size": "256"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,64 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-190",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        27.0,
+        22.0
+      ],
+      "text": "line"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "grain",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "compatmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "floatoutput",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "grain",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "maxpoints",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

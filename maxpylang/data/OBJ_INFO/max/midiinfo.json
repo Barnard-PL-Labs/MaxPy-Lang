@@ -1,0 +1,45 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-220",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        50.0,
+        22.0
+      ],
+      "text": "midiinfo"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autopollcontrollers",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autopollinput",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autopolloutput",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,55 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-459",
+      "maxclass": "newobj",
+      "numinlets": 5,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        38.0,
+        22.0
+      ],
+      "text": "zmap"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "minimum-input",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "maximum-input",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "minimum-output",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "maximum-output",
+        "type": [
+          "number"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

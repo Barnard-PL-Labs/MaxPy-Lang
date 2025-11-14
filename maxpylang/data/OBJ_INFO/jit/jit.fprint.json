@@ -1,0 +1,66 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-54",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        47.0,
+        22.0
+      ],
+      "text": "jit.fprint"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "default_dir",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "defaultdir",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "coldelim",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "planedelim",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "precision",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rowdelim",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "writemode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

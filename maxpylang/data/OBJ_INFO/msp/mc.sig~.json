@@ -1,0 +1,52 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-294",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        50.0,
+        22.0
+      ],
+      "text": "mc.sig~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-output-value",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "a",
+        "index": "all",
+        "type": null
+      }
+    ],
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": "all",
+        "type": "multichannelsignal"
+      }
+    ]
+  }
+}

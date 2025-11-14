@@ -1,0 +1,62 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-439",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        18.0,
+        22.0
+      ],
+      "text": "zl"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "mode",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "length",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "function-int",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "function-list",
+        "type": [
+          "list"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "zlmaxsize",
+      "type": "atom_long",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

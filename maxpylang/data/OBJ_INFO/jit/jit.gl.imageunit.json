@@ -1,0 +1,86 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-69",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_gl_texture",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        85.0,
+        22.0
+      ],
+      "text": "jit.gl.imageunit"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "activeinput",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "adapt",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "colormode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "dimscale",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "fx",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "inputs",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "out_name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "paramsafe",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "thru",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "verbose",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

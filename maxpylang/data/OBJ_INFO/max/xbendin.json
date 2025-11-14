@@ -1,0 +1,44 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-420",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "int",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        51.0,
+        22.0
+      ],
+      "text": "xbendin"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "channel",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "xbendin2",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

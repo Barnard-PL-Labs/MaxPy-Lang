@@ -1,0 +1,60 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-330",
+      "linecount": 14,
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        18.0,
+        196.0
+      ],
+      "text": "mc.voiceallocator~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "id": "0",
+        "name": "voice count",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "initialbusystate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "steal",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "voices",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

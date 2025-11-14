@@ -1,0 +1,78 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-169",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        18.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "filename": "",
+        "parameter_enable": 0
+      },
+      "text": "js"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "filename",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "inlets-outlets",
+        "type": [
+          "list"
+        ]
+      },
+      {
+        "name": "jsarguments",
+        "type": [
+          "list"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "n",
+        "index": 1,
+        "type": null
+      }
+    ],
+    "numoutlets": [
+      {
+        "argtype": "n",
+        "index": 0,
+        "type": ""
+      }
+    ]
+  }
+}

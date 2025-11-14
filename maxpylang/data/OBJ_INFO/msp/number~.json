@@ -1,0 +1,105 @@
+{
+  "default": {
+    "box": {
+      "fontface": 0,
+      "fontname": "Arial",
+      "fontsize": 12.0,
+      "id": "obj-368",
+      "maxclass": "number~",
+      "mode": 2,
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "float"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        56.0,
+        22.0
+      ],
+      "sig": 0.0
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bgcolor2",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "ft1",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "hbgcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "htextcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "interval",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "maximum",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "minimum",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "monitormode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "numdecimalplaces",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "sigoutmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,59 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-265",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        62.0,
+        22.0
+      ],
+      "text": "mc.pong~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "folding-mode",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "low-value",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "high-value",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "range",
+      "type": "float",
+      "size": "2"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,39 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-309",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 4,
+      "outlettype": [
+        "multichannelsignal",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        60.0,
+        22.0
+      ],
+      "text": "mc.sync~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "rtport",
+      "type": "symbol",
+      "size": "1",
+      "force": "1"
+    }
+  ],
+  "in/out": {}
+}

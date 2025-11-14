@@ -1,0 +1,62 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-319",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 5,
+      "outlettype": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        45.0,
+        22.0
+      ],
+      "text": "regexp"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "expression",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "substitution",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "re",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "substitute",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "tosymbol",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,44 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-378",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "",
+        "bang",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        28.0,
+        22.0
+      ],
+      "text": "text"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "filename",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "precision",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

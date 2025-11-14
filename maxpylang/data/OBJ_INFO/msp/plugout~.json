@@ -1,0 +1,43 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-396",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        55.0,
+        22.0
+      ],
+      "text": "plugout~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "output-channel-destination",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

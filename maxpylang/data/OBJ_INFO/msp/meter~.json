@@ -1,0 +1,119 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-354",
+      "maxclass": "meter~",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "float"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        80.0,
+        13.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "coldcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "dbperled",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "hotcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "interval",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "monotone",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "nhotleds",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "ntepidleds",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "numleds",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "nwarmleds",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "offcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "oncolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "orientation",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "overloadcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "tepidcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "warmcolor",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

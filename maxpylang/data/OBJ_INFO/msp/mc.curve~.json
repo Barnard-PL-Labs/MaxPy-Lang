@@ -1,0 +1,55 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-164",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 3,
+      "outlettype": [
+        "multichannelsignal",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        22.0
+      ],
+      "text": "mc.curve~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-value",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "curve-parameter",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "maxpoints",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "shapemode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

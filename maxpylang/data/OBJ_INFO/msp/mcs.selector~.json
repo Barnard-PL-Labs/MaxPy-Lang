@@ -1,0 +1,55 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-347",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        83.0,
+        22.0
+      ],
+      "text": "mcs.selector~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "number-of-inputs",
+        "default": "1",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "initially-open-inlet",
+        "default": "0",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "ramptime",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "stepmode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

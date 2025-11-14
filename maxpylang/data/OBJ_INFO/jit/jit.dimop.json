@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-42",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        53.0,
+        22.0
+      ],
+      "text": "jit.dimop"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "op",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "step",
+      "type": "int",
+      "size": "32"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,189 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-373",
+      "maxclass": "tab",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "int",
+        "",
+        ""
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        200.0,
+        24.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "activesafe",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "border",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "borderoncolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "button",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "clicktabcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "clicktextcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "colorselectedtext",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "contrastactivetab",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "fadetime",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "fadeunselect",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "gradient",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "hovertabcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "hovertextcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "htabcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "htextcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "margin",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "multiline",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rounded",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "segmented",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "spacing_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "spacing_y",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "tabcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "tabs",
+      "type": "symbol",
+      "size": "64"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "truncate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "valign",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

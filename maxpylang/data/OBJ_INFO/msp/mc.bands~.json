@@ -1,0 +1,39 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-141",
+      "maxclass": "newobj",
+      "numinlets": 5,
+      "numoutlets": 3,
+      "outlettype": [
+        "multichannelsignal",
+        "",
+        "float"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        68.0,
+        22.0
+      ],
+      "text": "mc.bands~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "number-of-bands",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

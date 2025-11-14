@@ -1,0 +1,59 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-304",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        32.0,
+        22.0
+      ],
+      "text": "print"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "identifier",
+        "type": [
+          "any"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "deltatime",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "floatprecision",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "level",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "popup",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "time",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

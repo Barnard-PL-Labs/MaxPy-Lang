@@ -1,0 +1,43 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-387",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        42.0,
+        22.0
+      ],
+      "text": "thresh"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "threshold",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "threshold-time",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

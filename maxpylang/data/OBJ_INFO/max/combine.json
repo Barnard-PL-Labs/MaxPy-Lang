@@ -1,0 +1,56 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-55",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        54.0,
+        22.0
+      ],
+      "text": "combine"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "inlets",
+        "type": [
+          "any"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "padding",
+      "type": "int",
+      "size": "256"
+    },
+    {
+      "name": "triggers",
+      "type": "int",
+      "size": "256"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "a",
+        "index": "all",
+        "type": null
+      }
+    ]
+  }
+}

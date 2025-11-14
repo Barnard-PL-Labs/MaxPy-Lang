@@ -1,0 +1,71 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-223",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "midievent"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        90.0,
+        22.0
+      ],
+      "text": "mc.midiplayer~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chanmod",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "defaultdur",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "defaultnote",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "defaultvelocity",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mpemode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "playzero",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "triggermode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "velcurve",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

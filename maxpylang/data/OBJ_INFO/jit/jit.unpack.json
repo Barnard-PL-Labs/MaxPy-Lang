@@ -1,0 +1,59 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-215",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 5,
+      "outlettype": [
+        "jit_matrix",
+        "jit_matrix",
+        "jit_matrix",
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        59.0,
+        22.0
+      ],
+      "text": "jit.unpack"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "jump",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "offset",
+      "type": "int",
+      "size": "32"
+    }
+  ],
+  "in/out": {
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "add_amt": 1,
+        "type": {
+          "default": "jit_matrix",
+          "last": [
+            1,
+            ""
+          ]
+        }
+      }
+    ]
+  }
+}

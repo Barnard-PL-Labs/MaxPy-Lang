@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-114",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        74.0,
+        22.0
+      ],
+      "text": "jit.la.uppertri"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "swapcount",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "thresh",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

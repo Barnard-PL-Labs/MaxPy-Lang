@@ -1,0 +1,53 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-276",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        67.0,
+        22.0
+      ],
+      "text": "mc.resize~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "id": "0",
+        "name": "channels",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "replicate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "select",
+      "type": "atom",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

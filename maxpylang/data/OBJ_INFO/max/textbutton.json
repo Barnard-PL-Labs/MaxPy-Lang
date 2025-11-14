@@ -1,0 +1,184 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-381",
+      "maxclass": "textbutton",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "",
+        "",
+        "int"
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        100.0,
+        20.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "active",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "align",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bgoncolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bgovercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bgoveroncolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "blinktime",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "border",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "borderoncolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "fontlink",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "legacytextcolor",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "outputmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rounded",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "spacing_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "spacing_y",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "text",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "texton",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "textoncolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "textovercolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "textoveroncolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "tosymbol",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "truncate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "underline",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "usebgoncolor",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "usetextovercolor",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

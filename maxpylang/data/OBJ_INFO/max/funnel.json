@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-130",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "list"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        41.0,
+        22.0
+      ],
+      "text": "funnel"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "inlets",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "offset",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "type": null
+      }
+    ]
+  }
+}

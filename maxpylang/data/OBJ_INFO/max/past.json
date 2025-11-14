@@ -1,0 +1,43 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-270",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        31.0,
+        22.0
+      ],
+      "text": "past"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "list",
+        "type": [
+          "list"
+        ]
+      },
+      {
+        "name": "number",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

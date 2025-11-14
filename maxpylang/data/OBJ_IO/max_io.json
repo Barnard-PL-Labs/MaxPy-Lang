@@ -1,0 +1,57 @@
+{
+ "bangbang": {"numoutlets": [{"argtype": "a", "index": 0, "type": "bang"}]}, 
+    
+ "bondo": {"numinlets": [{"argtype": "a", "index": 0, "type": null}], 
+           "numoutlets": [{"argtype": "a", "index": 0, "type": ""}]}, 
+    
+ "bucket": {"numoutlets": [{"argtype": "a", "index": 0, "type": ""}]}, 
+    
+ "buddy": {"numinlets": [{"argtype": "a", "index": 0, "comparitor": ">=2", "type": null}], 
+           "numoutlets": [{"argtype": "a", "index": 0, "comparitor": ">=2", "type": ""}]}, 
+    
+ "combine": {"numinlets": [{"argtype": "a", "index": "all", "type": null}]}, 
+    
+ "cycle": {"numoutlets": [{"argtype": "a", "index": 0, "type": ""}]}, 
+    
+ "decode": {"numoutlets": [{"argtype": "a", "index": 0, "type": "int"}]}, 
+    
+ "funnel": {"numinlets": [{"argtype": "a", "index": 0, "type": null}]}, 
+    
+ "gate": {"numoutlets": [{"argtype": "a", "index": 0, "type": ""}]}, 
+    
+ "grab": {"numoutlets": [{"argtype": "a", "index": 0, "add_amt": 1, "type": ""}]}, 
+    
+ "js": {"numinlets": [{"argtype": "n", "index": 1, "type": null}], 
+        "numoutlets": [{"argtype": "n", "index": 0, "type": ""}]}, 
+    
+ "mpeformat": {"numinlets": [{"argtype": "a", "index": 0, "add_amt": 1, "type": null}]}, 
+    
+ "pack": {"numinlets": [{"argtype": "a", "index": "all", "type": null}]}, 
+    
+ "pak": {"numinlets": [{"argtype": "a", "index": "all", "type": null}]}, 
+    
+ "pvar": {"numoutlets": [{"argtype": "n", "index": 0, "type": ""}]}, 
+    
+ "route": {"numinlets": [{"argtype": "a", "index": "all", "add_amt": 1, "type": null}], 
+           "numoutlets": [{"argtype": "a", "index": "all", "add_amt": 1, "type": ""}]}, 
+    
+ "routepass": {"numinlets": [{"argtype": "a", "index": "all", "add_amt": 1, "type": null}], 
+               "numoutlets": [{"argtype": "a", "index": "all", "add_amt": 1, "type": ""}]}, 
+    
+ "router": {"numinlets": [{"argtype": "a", "index": 0, "add_amt": 1, "type": null}], 
+            "numoutlets": [{"argtype": "a", "index": 1, "add_amt": 1, "type": ""}]}, 
+    
+ "select": {"numinlets": [{"argtype": "a", "index": "all", "add_amt": 1, "type": null}], 
+            "numoutlets": [{"argtype": "a", "index": "all", "add_amt": 1, 
+                            "type": {"default": "bang", "last": [1, ""]}}]}, 
+    
+ "spray": {"numoutlets": [{"argtype": "a", "index": 0, "type": ""}]}, 
+    
+ "switch": {"numinlets": [{"argtype": "a", "index": "all", "add_amt": 1, "type": null}]}, 
+    
+ "trigger": {"numoutlets": [{"argtype": "a", "index": "all", "type": "trigger_out"}]}, 
+    
+ "unjoin": {"numoutlets": [{"argtype": "a", "index": 0, "add_amt": 1, "comparitor": ">=2", "type": ""}]}, 
+    
+ "unpack": {"numoutlets": [{"argtype": "a", "index": "all", "type": "unpack_out"}]}
+}

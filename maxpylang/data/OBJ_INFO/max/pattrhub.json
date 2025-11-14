@@ -1,0 +1,36 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-275",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        53.0,
+        22.0
+      ],
+      "text": "pattrhub"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "patcher",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,90 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-74",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "dictionary"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        67.0,
+        22.0
+      ],
+      "text": "filterdesign"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "frequency",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "order",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "passband_ripple",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "response",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "samplerate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "sos_output",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "stopband_attenuation",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "tf_output",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "topology",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "units",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "zpk_output",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,53 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-297",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        60.0,
+        22.0
+      ],
+      "text": "mc.slide~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "slide-up",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "slide-down",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "slidedown",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "slideup",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

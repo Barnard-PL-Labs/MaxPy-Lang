@@ -1,0 +1,52 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-208",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "jit_matrix",
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        55.0,
+        22.0
+      ],
+      "text": "jit.textfile"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autoclear",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "defaultdir",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "convert",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "title",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

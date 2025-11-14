@@ -1,0 +1,45 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-405",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        68.0,
+        22.0
+      ],
+      "text": "polybuffer~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "name",
+        "id": "0",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "embed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "quiet",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

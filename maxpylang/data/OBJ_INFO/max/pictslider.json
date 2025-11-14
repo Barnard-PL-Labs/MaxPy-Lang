@@ -1,0 +1,173 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-287",
+      "maxclass": "pictslider",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "int",
+        "int"
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        100.0,
+        100.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "active",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bkgnddrag",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bkgndpict",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "bkgndsize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bottommargin",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bottomvalue",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "clickedimage",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "elementcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "horizontaltracking",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "imagemask",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "inactiveimage",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "invisiblebkgnd",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "jump",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "knobpict",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "leftmargin",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "leftvalue",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "movehorizontal",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "movevertical",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rightmargin",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rightvalue",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "scaleknob",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "topmargin",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "topvalue",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "verticaltracking",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

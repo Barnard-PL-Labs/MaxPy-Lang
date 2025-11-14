@@ -1,0 +1,42 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-216",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        50.0,
+        22.0
+      ],
+      "text": "mc.list~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "initial values",
+        "type": [
+          "list"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

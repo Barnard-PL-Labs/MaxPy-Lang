@@ -1,0 +1,50 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-326",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        59.0,
+        22.0
+      ],
+      "text": "mc.twist~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "curve",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "interval",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "shapemode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "syncupdate",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

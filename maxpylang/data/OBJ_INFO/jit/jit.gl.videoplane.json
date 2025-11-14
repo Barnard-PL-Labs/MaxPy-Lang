@@ -1,0 +1,101 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-94",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        91.0,
+        22.0
+      ],
+      "text": "jit.gl.videoplane"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "client_storage",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "colormode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "displaylist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "gridmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "nudge",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "preserve_aspect",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rect_tex",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "tex_offset_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "tex_offset_y",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "tex_scale_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "tex_scale_y",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "texturename",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

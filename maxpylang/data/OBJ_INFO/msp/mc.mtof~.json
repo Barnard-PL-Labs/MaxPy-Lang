@@ -1,0 +1,35 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-230",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        58.0,
+        22.0
+      ],
+      "text": "mc.mtof~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "base",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

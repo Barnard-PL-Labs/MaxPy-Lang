@@ -1,0 +1,111 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-80",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        57.0,
+        22.0
+      ],
+      "text": "jit.gl.path"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autohandles",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "closed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "displaylist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "drawhandles",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "endcap",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "evalin",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "evalout",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "extrudescale",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "interpmode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "joinstyle",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "normgen",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "pathstyle",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "pointcount",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "segments",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "texscale",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "texturemode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

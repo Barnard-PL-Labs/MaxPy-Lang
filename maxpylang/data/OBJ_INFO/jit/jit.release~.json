@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-178",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        67.0,
+        22.0
+      ],
+      "text": "jit.release~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "latency",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

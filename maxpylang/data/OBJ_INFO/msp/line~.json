@@ -1,0 +1,44 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-118",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        34.0,
+        22.0
+      ],
+      "text": "line~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-value",
+        "type": [
+          "int",
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "maxpoints",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

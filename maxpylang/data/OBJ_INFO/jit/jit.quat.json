@@ -1,0 +1,71 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-174",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "list",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        44.0,
+        22.0
+      ],
+      "text": "jit.quat"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "inverse",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "normalize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "quat1",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "quat2",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "quatout",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "xaxis",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "yaxis",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "zaxis",
+      "type": "float",
+      "size": "3"
+    }
+  ],
+  "in/out": {}
+}

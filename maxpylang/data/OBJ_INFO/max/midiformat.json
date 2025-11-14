@@ -1,0 +1,49 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-218",
+      "maxclass": "newobj",
+      "numinlets": 7,
+      "numoutlets": 2,
+      "outlettype": [
+        "int",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        65.0,
+        22.0
+      ],
+      "text": "midiformat"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-MIDI-channel-number",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "initial-MIDI-channel-number",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "hires",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

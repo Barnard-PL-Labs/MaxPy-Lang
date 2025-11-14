@@ -1,0 +1,96 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-172",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        68.0,
+        22.0
+      ],
+      "text": "jit.qt.record"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "adapt",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "engine",
+      "size": "1",
+      "type": "symbol"
+    },
+    {
+      "name": "preview",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "dstrect",
+      "size": "4",
+      "type": "int"
+    },
+    {
+      "name": "interp",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "planemap",
+      "size": "4",
+      "type": "int"
+    },
+    {
+      "name": "realtime",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "srcrect",
+      "size": "4",
+      "type": "int"
+    },
+    {
+      "name": "time",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "usedstrect",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "usesrcrect",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "fps",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "codec",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

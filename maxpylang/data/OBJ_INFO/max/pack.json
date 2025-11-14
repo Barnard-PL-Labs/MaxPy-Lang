@@ -1,0 +1,45 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-265",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        34.0,
+        22.0
+      ],
+      "text": "pack"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "list-elements",
+        "type": [
+          "any"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "a",
+        "index": "all",
+        "type": null
+      }
+    ]
+  }
+}

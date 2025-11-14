@@ -1,0 +1,96 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-214",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        39.0,
+        22.0
+      ],
+      "text": "jit.uldl"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "defaultdir",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "convert",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dir_list",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dirlist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "passive",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "password",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "percent",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "report",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "url_dl",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "url_ul",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "urldl",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "urlul",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "username",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

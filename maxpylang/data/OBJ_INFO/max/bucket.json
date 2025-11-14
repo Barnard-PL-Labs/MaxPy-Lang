@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-39",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        44.0,
+        22.0
+      ],
+      "text": "bucket"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "outlets",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "output-flag",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "type": ""
+      }
+    ]
+  }
+}

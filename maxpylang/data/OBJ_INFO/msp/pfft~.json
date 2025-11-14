@@ -1,0 +1,67 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-381",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        32.0,
+        22.0
+      ],
+      "text": "pfft~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "subpatch-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "FFT-size",
+        "units": "samples",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "overlap-factor (hop-size-denominator)",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "start-onset",
+        "units": "samples",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "full-spectrum-flag (0 or nonzero)",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "'args' and list-of-argument-values",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,156 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-185",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        41.0,
+        22.0
+      ],
+      "text": "jit.rota"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "anchor_x",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "anchor_y",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "boundmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "cosoffset_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "cosoffset_y",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "cosscale_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "cosscale_y",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "interp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "offset_x",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "offset_y",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "sinoffset_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "sinoffset_y",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "sinscale_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "sinscale_y",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "theta",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "thetaoffsetcos_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "thetaoffsetcos_y",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "thetaoffsetsin_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "thetaoffsetsin_y",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "thetascalecos_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "thetascalecos_y",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "thetascalesin_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "thetascalesin_y",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "zoom_x",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "zoom_y",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

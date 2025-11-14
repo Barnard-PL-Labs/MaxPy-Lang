@@ -1,0 +1,42 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-60",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        30.0,
+        22.0
+      ],
+      "text": "==~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-comparison-value",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "fuzzy",
+      "type": "atom",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

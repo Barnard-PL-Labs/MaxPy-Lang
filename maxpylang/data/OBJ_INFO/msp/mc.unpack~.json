@@ -1,0 +1,47 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-327",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        74.0,
+        22.0
+      ],
+      "text": "mc.unpack~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "id": "0",
+        "name": "size",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "type": "signal"
+      }
+    ]
+  }
+}

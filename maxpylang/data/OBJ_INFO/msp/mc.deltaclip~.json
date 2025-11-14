@@ -1,0 +1,43 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-171",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        79.0,
+        22.0
+      ],
+      "text": "mc.deltaclip~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "minimum-slope-value",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "minimum and maximum-slope-values",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

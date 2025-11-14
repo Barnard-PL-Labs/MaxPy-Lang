@@ -1,0 +1,60 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-53",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 4,
+      "outlettype": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        27.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "embed": 0,
+        "precision": 6
+      },
+      "text": "coll"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "name",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "no-search",
+        "type": [
+          "any"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "embed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "precision",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

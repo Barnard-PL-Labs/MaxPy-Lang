@@ -1,0 +1,36 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-109",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        97.0,
+        22.0
+      ],
+      "text": "jit.la.determinant"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "thresh",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

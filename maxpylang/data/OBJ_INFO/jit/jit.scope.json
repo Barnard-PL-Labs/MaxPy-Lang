@@ -1,0 +1,125 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-195",
+      "maxclass": "jit.scope",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        80.0,
+        60.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "accum",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "accum_desat",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "border",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "colormode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "dstrect",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "graphcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "graphmode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "hgraphcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "hpopupbackgcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "hpopupcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "interp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "planemap",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "popupbackgcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "popupcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "size",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "srcrect",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

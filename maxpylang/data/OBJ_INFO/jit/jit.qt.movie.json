@@ -1,0 +1,226 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-171",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        66.0,
+        22.0
+      ],
+      "text": "jit.qt.movie"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "adapt",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "automatic",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "autostart",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "colormode",
+      "size": "1",
+      "type": "symbol"
+    },
+    {
+      "name": "drawto",
+      "size": "1",
+      "type": "symbol"
+    },
+    {
+      "name": "dstrect",
+      "size": "4",
+      "type": "int"
+    },
+    {
+      "name": "duration",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "engine",
+      "size": "1",
+      "type": "symbol"
+    },
+    {
+      "name": "fps",
+      "size": "1",
+      "type": "float"
+    },
+    {
+      "name": "framecount",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "framereport",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "interp",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "loop",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "loopend",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "looppoints",
+      "size": "2",
+      "type": "int"
+    },
+    {
+      "name": "loopreport",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "loopstart",
+      "size": "2",
+      "type": "int"
+    },
+    {
+      "name": "movie_dim",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "moviedim",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "moviefile",
+      "size": "1",
+      "type": "symbol"
+    },
+    {
+      "name": "moviename",
+      "size": "1",
+      "type": "symbol"
+    },
+    {
+      "name": "moviepath",
+      "size": "1",
+      "type": "symbol"
+    },
+    {
+      "name": "output_texture",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "rate",
+      "size": "1",
+      "type": "float"
+    },
+    {
+      "name": "srcrect",
+      "size": "4",
+      "type": "int"
+    },
+    {
+      "name": "texture_name",
+      "size": "1",
+      "type": "symbol"
+    },
+    {
+      "name": "time",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "timescale",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "unique",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "usedstrect",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "usesrcrect",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "vol",
+      "size": "1",
+      "type": "float"
+    },
+    {
+      "name": "time_secs",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "time_ms",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "seconds",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "position",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "milliseconds",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "looppoints_secs",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "looppoints_ms",
+      "type": "int",
+      "size": "2"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,81 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-137",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        65.0,
+        22.0
+      ],
+      "text": "jit.p.vishnu"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "force",
+      "type": "float",
+      "size": "30"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pitch",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "pitch_var",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "pos",
+      "type": "float",
+      "size": "30"
+    },
+    {
+      "name": "pos_var",
+      "type": "float",
+      "size": "30"
+    },
+    {
+      "name": "speed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "speed_var",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "yaw",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "yaw_var",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

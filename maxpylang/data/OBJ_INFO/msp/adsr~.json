@@ -1,0 +1,98 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-13",
+      "maxclass": "newobj",
+      "numinlets": 5,
+      "numoutlets": 4,
+      "outlettype": [
+        "signal",
+        "signal",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        39.0,
+        22.0
+      ],
+      "text": "adsr~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "attack",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "decay",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "sustain",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "release",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "attack",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "decay",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "legato",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "maxsustain",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "release",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "retrigger",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "sustain",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "triggermode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

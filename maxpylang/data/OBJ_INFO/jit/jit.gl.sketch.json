@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-87",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        68.0,
+        22.0
+      ],
+      "text": "jit.gl.sketch"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autonormal",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "displaylist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "immediate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pushstate",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

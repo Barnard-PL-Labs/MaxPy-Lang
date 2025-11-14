@@ -1,0 +1,46 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-29",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        60.0,
+        22.0
+      ],
+      "text": "jit.change"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "report",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "thresh",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

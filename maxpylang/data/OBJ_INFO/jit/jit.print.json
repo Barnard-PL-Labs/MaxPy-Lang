@@ -1,0 +1,76 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-160",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        44.0,
+        22.0
+      ],
+      "text": "jit.print"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "coldelim",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "fieldwidth",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "info",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "planedelim",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "precision",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rowdelim",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "title",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "zeropad",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

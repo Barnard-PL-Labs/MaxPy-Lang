@@ -1,0 +1,80 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-268",
+      "maxclass": "newobj",
+      "numinlets": 4,
+      "numoutlets": 3,
+      "outlettype": [
+        "multichannelsignal",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        62.0,
+        22.0
+      ],
+      "text": "mc.ramp~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "id": "0",
+        "name": "duration",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "curve",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "duration",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "end",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "interval",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "reset",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "retrigger",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "start",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

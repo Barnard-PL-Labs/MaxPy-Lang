@@ -1,0 +1,46 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-19",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "list",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        72.0,
+        22.0
+      ],
+      "text": "jit.axis2quat"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "angleaxis",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "normalize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "quat",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

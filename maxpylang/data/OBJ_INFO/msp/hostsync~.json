@@ -1,0 +1,39 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-104",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 10,
+      "outlettype": [
+        "int",
+        "int",
+        "int",
+        "float",
+        "list",
+        "float",
+        "float",
+        "int",
+        "list",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        63.0,
+        22.0
+      ],
+      "text": "hostsync~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

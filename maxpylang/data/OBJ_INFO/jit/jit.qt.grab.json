@@ -1,0 +1,121 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-170",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        58.0,
+        22.0
+      ],
+      "text": "jit.qt.grab"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "adapt",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "automatic",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "colormode",
+      "size": "1",
+      "type": "symbol"
+    },
+    {
+      "name": "drawto",
+      "size": "1",
+      "type": "symbol"
+    },
+    {
+      "name": "dstrect",
+      "size": "4",
+      "type": "int"
+    },
+    {
+      "name": "engine",
+      "size": "1",
+      "type": "symbol"
+    },
+    {
+      "name": "framerate",
+      "size": "1",
+      "type": "float"
+    },
+    {
+      "name": "framereport",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "input",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "interp",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "output_texture",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "srcrect",
+      "size": "4",
+      "type": "int"
+    },
+    {
+      "name": "texture_name",
+      "size": "1",
+      "type": "symbol"
+    },
+    {
+      "name": "unique",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "usedstrect",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "usesrcrect",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "vdevice",
+      "size": "1",
+      "type": "int"
+    },
+    {
+      "name": "format",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

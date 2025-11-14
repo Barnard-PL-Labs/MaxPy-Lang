@@ -1,0 +1,156 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-13",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        73.0,
+        22.0
+      ],
+      "text": "jit.anim.path"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autohandles",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "automatic",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "closed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "drawpath",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "drawto",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "duration",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "endreport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "evalquat",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "evalreport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "evalscale",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interpmode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "length",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "loop",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "loopreport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "play",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pointcount",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "position",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "quat",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "rate",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "scale",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "shortestrot",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "targetname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "time",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "timemode",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

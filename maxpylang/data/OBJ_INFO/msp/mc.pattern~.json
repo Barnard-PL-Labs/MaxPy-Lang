@@ -1,0 +1,95 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-247",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "multichannelsignal",
+        "multichannelsignal",
+        "dictionary"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        72.0,
+        22.0
+      ],
+      "text": "mc.pattern~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "id": "0",
+        "name": "channels",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autorecord",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "defaultmute",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "defaultquantize",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "defaultramp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "defaultwrap",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "embed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "immediate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "in",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "individual",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "ref",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

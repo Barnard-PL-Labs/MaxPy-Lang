@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-377",
+      "maxclass": "newobj",
+      "numinlets": 4,
+      "numoutlets": 1,
+      "outlettype": [
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        42.0,
+        22.0
+      ],
+      "text": "tempo"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "tempo",
+        "type": [
+          "int",
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

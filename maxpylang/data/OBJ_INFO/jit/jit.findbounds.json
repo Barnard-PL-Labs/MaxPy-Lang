@@ -1,0 +1,52 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-52",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        79.0,
+        22.0
+      ],
+      "text": "jit.findbounds"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "boundmax",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "boundmin",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "max",
+      "type": "float",
+      "size": "32"
+    },
+    {
+      "name": "min",
+      "type": "float",
+      "size": "32"
+    }
+  ],
+  "in/out": {}
+}

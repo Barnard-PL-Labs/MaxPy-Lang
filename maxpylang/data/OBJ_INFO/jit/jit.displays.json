@@ -1,0 +1,35 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-43",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        22.0
+      ],
+      "text": "jit.displays"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "resetmode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

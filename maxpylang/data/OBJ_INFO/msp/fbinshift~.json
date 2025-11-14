@@ -1,0 +1,47 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-67",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        57.0,
+        22.0
+      ],
+      "text": "fbinshift~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "frequency-shift",
+        "units": "hz",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "frequency-shift",
+        "units": "hz",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

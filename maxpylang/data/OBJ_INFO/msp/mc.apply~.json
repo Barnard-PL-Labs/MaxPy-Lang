@@ -1,0 +1,52 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-132",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        22.0
+      ],
+      "text": "mc.apply~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "channels",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "functions",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "ramptime",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

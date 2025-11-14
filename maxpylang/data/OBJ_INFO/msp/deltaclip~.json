@@ -1,0 +1,43 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-53",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        60.0,
+        22.0
+      ],
+      "text": "deltaclip~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "minimum-slope-value",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "minimum and maximum-slope-values",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

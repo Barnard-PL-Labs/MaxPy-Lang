@@ -1,0 +1,325 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-271",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "patcher": {
+        "fileversion": 1,
+        "appversion": {
+          "major": 8,
+          "minor": 3,
+          "revision": 1,
+          "architecture": "x64",
+          "modernui": 1
+        },
+        "classnamespace": "box",
+        "rect": [
+          59.0,
+          106.0,
+          640.0,
+          480.0
+        ],
+        "bglocked": 0,
+        "openinpresentation": 0,
+        "default_fontsize": 12.0,
+        "default_fontface": 0,
+        "default_fontname": "Arial",
+        "gridonopen": 1,
+        "gridsize": [
+          15.0,
+          15.0
+        ],
+        "gridsnaponopen": 1,
+        "objectsnaponopen": 1,
+        "statusbarvisible": 2,
+        "toolbarvisible": 1,
+        "lefttoolbarpinned": 0,
+        "toptoolbarpinned": 0,
+        "righttoolbarpinned": 0,
+        "bottomtoolbarpinned": 0,
+        "toolbars_unpinned_last_save": 0,
+        "tallnewobj": 0,
+        "boxanimatetime": 200,
+        "enablehscroll": 1,
+        "enablevscroll": 1,
+        "devicewidth": 0.0,
+        "description": "",
+        "digest": "",
+        "tags": "",
+        "style": "",
+        "subpatcher_template": "",
+        "assistshowspatchername": 0,
+        "visible": 1,
+        "boxes": [],
+        "lines": []
+      },
+      "patching_rect": [
+        100.0,
+        100.0,
+        49.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "description": "",
+        "digest": "",
+        "globalpatchername": "",
+        "tags": ""
+      },
+      "text": "patcher"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "subpatch",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "accentcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "assistshowspatchername",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bgfillcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bottomtoolbarpinned",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "boxanimatetime",
+      "type": "int32",
+      "size": "1"
+    },
+    {
+      "name": "clearcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "defaultfocusbox",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "description",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "digest",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "editing_bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "elementcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "enablehscroll",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enabletransparentbgwithtitlebar",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enablevscroll",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "filepath",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "fontface",
+      "type": "int32",
+      "size": "1"
+    },
+    {
+      "name": "fontname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "fontsize",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "globalpatchername",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "gridonopen",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "gridsize",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "gridsnaponopen",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "helpsidebarclosed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "isolateaudio",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "lefttoolbarpinned",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "locked_bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "objectsnaponopen",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "openinpresentation",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "openrect",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "patchlinecolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "righttoolbarpinned",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "selectioncolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "showontab",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "stripecolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "subpatcher_template",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "tags",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "tallnewobj",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "textcolor_inverse",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "textjustification",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "title",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "toolbarvisible",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "toptoolbarpinned",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "workspacedisabled",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

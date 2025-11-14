@@ -1,0 +1,44 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-59",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        75.0,
+        22.0
+      ],
+      "text": "conformpath"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "pathstyle",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "pathtype",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

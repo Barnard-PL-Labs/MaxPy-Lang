@@ -1,0 +1,37 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-329",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        70.0,
+        22.0
+      ],
+      "text": "mc.vectral~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "vector-size",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,46 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-294",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 4,
+      "outlettype": [
+        "int",
+        "int",
+        "int",
+        "list"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        31.0,
+        22.0
+      ],
+      "text": "poly"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "voices",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "steal-mode",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

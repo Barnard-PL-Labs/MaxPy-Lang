@@ -1,0 +1,61 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-325",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        40.0,
+        22.0
+      ],
+      "text": "router"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "inlets",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "outlets",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "add_amt": 1,
+        "type": null
+      }
+    ],
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": 1,
+        "add_amt": 1,
+        "type": ""
+      }
+    ]
+  }
+}

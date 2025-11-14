@@ -1,0 +1,109 @@
+{
+  "default": {
+    "box": {
+      "disabled": [
+        0,
+        0
+      ],
+      "id": "obj-315",
+      "itemtype": 0,
+      "maxclass": "radiogroup",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        18.0,
+        34.0
+      ],
+      "size": 2,
+      "value": 0
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "activecolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "elementcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "enabled",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "flagmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "inactive",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "inactivecolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "itemtype",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "offset",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "selection",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "shape",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "size",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

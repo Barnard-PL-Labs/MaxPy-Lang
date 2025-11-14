@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-133",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        34.0,
+        22.0
+      ],
+      "text": "jit.op"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "op",
+      "type": "symbol",
+      "size": "32"
+    },
+    {
+      "name": "val",
+      "type": "atom",
+      "size": "32"
+    }
+  ],
+  "in/out": {}
+}

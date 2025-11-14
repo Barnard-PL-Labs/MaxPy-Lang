@@ -1,0 +1,54 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-411",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        41.0,
+        22.0
+      ],
+      "text": "unjoin"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "outlets",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "outsize",
+      "type": "atom_long",
+      "size": "1"
+    }
+  ],
+  "in/out": {
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "add_amt": 1,
+        "comparitor": ">=2",
+        "type": ""
+      }
+    ]
+  }
+}

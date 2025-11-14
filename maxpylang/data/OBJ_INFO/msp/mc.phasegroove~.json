@@ -1,0 +1,36 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-251",
+      "linecount": 14,
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        18.0,
+        196.0
+      ],
+      "text": "mc.phasegroove~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "conflict",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

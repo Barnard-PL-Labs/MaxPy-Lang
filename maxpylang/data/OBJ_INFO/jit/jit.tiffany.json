@@ -1,0 +1,61 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-210",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        52.0,
+        22.0
+      ],
+      "text": "jit.tiffany"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "32"
+    },
+    {
+      "name": "grid",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "xrange",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "xskip",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "yrange",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "yskip",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

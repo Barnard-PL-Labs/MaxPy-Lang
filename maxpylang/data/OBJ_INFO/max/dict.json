@@ -1,0 +1,76 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-87",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 4,
+      "outlettype": [
+        "dictionary",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        27.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "embed": 0,
+        "parameter_enable": 0,
+        "parameter_mappable": 0
+      },
+      "text": "dict"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "name",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "filename",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "embed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "quiet",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,65 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-307",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 4,
+      "outlettype": [
+        "multichannelsignal",
+        "multichannelsignal",
+        "multichannelsignal",
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        50.0,
+        22.0
+      ],
+      "text": "mc.svf~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "center-frequency",
+        "units": "hz",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "resonance",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "Hz",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "linear",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "radians",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

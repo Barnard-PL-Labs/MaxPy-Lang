@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-206",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        53.0,
+        22.0
+      ],
+      "text": "jit.streak"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "direction",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "prob",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "scale",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

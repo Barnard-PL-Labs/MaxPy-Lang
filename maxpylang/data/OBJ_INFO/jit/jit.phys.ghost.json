@@ -1,0 +1,121 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-145",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        79.0,
+        22.0
+      ],
+      "text": "jit.phys.ghost"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "central_exp",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "central_force",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "central_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "collision_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "collisions",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "filters",
+      "type": "symbol",
+      "size": "10"
+    },
+    {
+      "name": "force",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "position",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "quat",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "rotate",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "rotate_order",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "rotatexyz",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "scale",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "shape",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "torque",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "worldname",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

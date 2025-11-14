@@ -1,0 +1,79 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-410",
+      "maxclass": "newobj",
+      "numinlets": 4,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        43.0,
+        22.0
+      ],
+      "text": "ramp~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "id": "0",
+        "name": "duration",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "curve",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "duration",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "end",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "interval",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "reset",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "retrigger",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "start",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

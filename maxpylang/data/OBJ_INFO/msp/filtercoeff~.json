@@ -1,0 +1,47 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-73",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 5,
+      "outlettype": [
+        "signal",
+        "signal",
+        "signal",
+        "signal",
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        22.0
+      ],
+      "text": "filtercoeff~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "default-filter-type",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "resampling-factor",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

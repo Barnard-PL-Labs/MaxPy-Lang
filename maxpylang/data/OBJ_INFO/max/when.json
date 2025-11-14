@@ -1,0 +1,43 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-419",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "list",
+        "float"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        37.0,
+        22.0
+      ],
+      "text": "when"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "transport",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "transport",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

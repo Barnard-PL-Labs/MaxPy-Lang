@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-188",
+      "linecount": 12,
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        18.0,
+        169.0
+      ],
+      "text": "mc.frameaccum~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "phasewrap-flag (0 or nonzero)",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

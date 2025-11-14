@@ -1,0 +1,195 @@
+{
+  "default": {
+    "box": {
+      "buffername": "",
+      "id": "obj-478",
+      "maxclass": "waveform~",
+      "numinlets": 5,
+      "numoutlets": 6,
+      "outlettype": [
+        "float",
+        "float",
+        "float",
+        "float",
+        "list",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        256.0,
+        64.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "allowdrag",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "attr_bpm",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "beats",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "buffername",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "chanoffset",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "clipdraw",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "grid",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "gridcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "invert",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "labelbgcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "labels",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "labeltextcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "linecolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "norulerclick",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "offset",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "outmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "quiet",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "selectalpha",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "selectioncolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "setmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "setunit",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "snapto",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "ticks",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "vlabels",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "voffset",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "vticks",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "vzoom",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "waveformcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "zoom_orientation",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

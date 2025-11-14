@@ -1,0 +1,56 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-76",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        75.0,
+        22.0
+      ],
+      "text": "jit.gl.multiple"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "dimparam",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "glparams",
+      "type": "symbol",
+      "size": "10"
+    },
+    {
+      "name": "targetmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "targetname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "texture",
+      "type": "symbol",
+      "size": "256"
+    }
+  ],
+  "in/out": {}
+}

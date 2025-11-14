@@ -1,0 +1,78 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-336",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "bang",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        40.0,
+        22.0
+      ],
+      "text": "select"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "inlet",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "selectors",
+        "type": [
+          "any"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "fuzzy",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "matchfloat",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "a",
+        "index": "all",
+        "add_amt": 1,
+        "type": null
+      }
+    ],
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": "all",
+        "add_amt": 1,
+        "type": {
+          "default": "bang",
+          "last": [
+            1,
+            ""
+          ]
+        }
+      }
+    ]
+  }
+}

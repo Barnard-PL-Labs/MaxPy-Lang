@@ -1,0 +1,43 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-51",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        60.0,
+        22.0
+      ],
+      "text": "degrade~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "resampling-frequency-ratio",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "number-of-quantization-bits",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

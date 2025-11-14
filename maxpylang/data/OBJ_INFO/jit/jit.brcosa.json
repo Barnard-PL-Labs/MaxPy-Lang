@@ -1,0 +1,46 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-25",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        57.0,
+        22.0
+      ],
+      "text": "jit.brcosa"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "brightness",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "contrast",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "saturation",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

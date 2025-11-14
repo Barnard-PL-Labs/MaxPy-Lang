@@ -1,0 +1,77 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-306",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        45.0,
+        22.0
+      ],
+      "text": "project"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "amxdtype",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autolocalize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autoorganize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "browsertext",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "devpath",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "devpathtype",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "hideprojectwindow",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "readonly",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "showdependencies",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "sortmode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

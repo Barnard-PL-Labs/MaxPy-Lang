@@ -1,0 +1,39 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-46",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        44.0,
+        22.0
+      ],
+      "text": "cross~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "cutoff-frequency",
+        "units": "hz",
+        "type": [
+          "float"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

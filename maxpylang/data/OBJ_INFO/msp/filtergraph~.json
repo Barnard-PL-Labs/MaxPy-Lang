@@ -1,0 +1,265 @@
+{
+  "default": {
+    "box": {
+      "fontface": 0,
+      "id": "obj-78",
+      "linmarkers": [
+        0.0,
+        11025.0,
+        16537.5
+      ],
+      "logmarkers": [
+        0.0,
+        100.0,
+        1000.0,
+        10000.0
+      ],
+      "maxclass": "filtergraph~",
+      "nfilters": 1,
+      "numinlets": 8,
+      "numoutlets": 7,
+      "outlettype": [
+        "list",
+        "float",
+        "float",
+        "float",
+        "float",
+        "list",
+        "int"
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        256.0,
+        128.0
+      ],
+      "setfilter": [
+        0,
+        5,
+        1,
+        0,
+        0,
+        40.0,
+        1.0,
+        2.5,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autoout",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bwidthcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "curvecolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "dbdisplay",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "display_flat",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "domain",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "edit_Q",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "edit_amp",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "edit_analog",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "edit_displaydot",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "edit_filter",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "edit_freq",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "edit_gainmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "edit_maxQ",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "edit_maxamp",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "edit_maxfreq",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "edit_minQ",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "edit_minamp",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "edit_minfreq",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "edit_mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "fgcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "fullspect",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "hbwidthcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "hcurvecolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "hfgcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "linmarkers",
+      "type": "float",
+      "size": "16"
+    },
+    {
+      "name": "logamp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "logfreq",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "logmarkers",
+      "type": "float",
+      "size": "16"
+    },
+    {
+      "name": "markercolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "nfilters",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "numdisplay",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "phasespect",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "range",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

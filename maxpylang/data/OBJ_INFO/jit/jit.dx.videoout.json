@@ -1,0 +1,27 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-45",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        82.0,
+        22.0
+      ],
+      "text": "jit.dx.videoout"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

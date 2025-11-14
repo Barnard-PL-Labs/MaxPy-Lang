@@ -1,0 +1,47 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-327",
+      "maxclass": "newobj",
+      "numinlets": 4,
+      "numoutlets": 1,
+      "outlettype": [
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        43.0,
+        22.0
+      ],
+      "text": "rpnout"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "parameter-channel",
+        "type": [
+          "list"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "hires",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "running",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

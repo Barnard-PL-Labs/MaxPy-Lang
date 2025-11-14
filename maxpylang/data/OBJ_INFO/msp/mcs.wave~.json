@@ -1,0 +1,73 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-351",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        69.0,
+        22.0
+      ],
+      "text": "mcs.wave~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "buffer-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "start-point",
+        "units": "ms",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "end-point",
+        "units": "ms",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "number-of-output-channels",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "interp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interp_bias",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "interp_tension",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

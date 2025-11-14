@@ -1,0 +1,120 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-71",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        55.0,
+        22.0
+      ],
+      "text": "jit.gl.light"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "ambient",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "atten_const",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "atten_linear",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "atten_quad",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "diffuse",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "direction",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "layer",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "lookat",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "shadowblur",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "shadowquality",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "shadowrange",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "shadows",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "shadowtexoutname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "specular",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "spot_angle",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "spot_falloff",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "type",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "viewproj_matrix",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,202 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-141",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        73.0,
+        22.0
+      ],
+      "text": "jit.phys.6dof"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bias",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "body1",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "body2",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "collisions",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "lowerlimit_ang",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "lowerlimit_lin",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "motorstrength",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "motorvelocity_ang",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "motorvelocity_lin",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "position1",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "position2",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "quat1",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "quat2",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "relaxation",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "rotate1",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "rotate2",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "rotatexyz1",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "rotatexyz2",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "spring_ang",
+      "type": "int",
+      "size": "3"
+    },
+    {
+      "name": "spring_lin",
+      "type": "int",
+      "size": "3"
+    },
+    {
+      "name": "springdamp_ang",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "springdamp_lin",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "springeq_ang",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "springeq_lin",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "springstiff_ang",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "springstiff_lin",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "strength",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "stretch",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "upperlimit_ang",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "upperlimit_lin",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "worldname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "worldpos",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "worldquat",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

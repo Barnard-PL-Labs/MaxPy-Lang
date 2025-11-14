@@ -1,0 +1,81 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-436",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        59.0,
+        22.0
+      ],
+      "text": "sfrecord~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "number-of-input-channels",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "buffer-size",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bitdepth",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dither",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "nchans",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "quantization",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "resample",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "sortloop",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "type": null
+      }
+    ]
+  }
+}

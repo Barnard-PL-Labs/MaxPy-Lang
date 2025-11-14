@@ -1,0 +1,49 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-367",
+      "maxclass": "swatch",
+      "numinlets": 3,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        "float"
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        128.0,
+        32.0
+      ],
+      "saturation": 1.0
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "compatibility",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "saturation",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

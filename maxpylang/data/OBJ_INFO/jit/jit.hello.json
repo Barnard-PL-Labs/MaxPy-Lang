@@ -1,0 +1,35 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-103",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        46.0,
+        22.0
+      ],
+      "text": "jit.hello"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "text",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

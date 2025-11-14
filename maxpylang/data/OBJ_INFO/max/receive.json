@@ -1,0 +1,37 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-318",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        47.0,
+        22.0
+      ],
+      "text": "receive"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,56 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-315",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "setvalue",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        59.0,
+        22.0
+      ],
+      "text": "mc.target"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "id": "0",
+        "name": "prepend",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "id": "1",
+        "name": "initial voice",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "append",
+      "type": "atomarray",
+      "size": "1"
+    },
+    {
+      "name": "prepend",
+      "type": "atomarray",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

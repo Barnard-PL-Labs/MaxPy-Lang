@@ -1,0 +1,54 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-480",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        41.0,
+        22.0
+      ],
+      "text": "what~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "id": "0",
+        "name": "values",
+        "type": [
+          "list"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "matches",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "syncupdate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "triggermode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

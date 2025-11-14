@@ -1,0 +1,39 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-94",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        48.0,
+        22.0
+      ],
+      "text": "gizmo~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "default-pitch-scalar",
+        "type": [
+          "int",
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

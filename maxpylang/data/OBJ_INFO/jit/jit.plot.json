@@ -1,0 +1,76 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-156",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        40.0,
+        22.0
+      ],
+      "text": "jit.plot"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "brgb",
+      "type": "int",
+      "size": "3"
+    },
+    {
+      "name": "clearit",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "frgb",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "height",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "width",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "xmax",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "xmin",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "ymax",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "ymin",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

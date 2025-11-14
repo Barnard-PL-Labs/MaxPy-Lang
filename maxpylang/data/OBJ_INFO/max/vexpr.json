@@ -1,0 +1,68 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-417",
+      "maxclass": "newobj",
+      "numinlets": 0,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        38.0,
+        22.0
+      ],
+      "text": "vexpr"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "expression",
+        "type": [
+          "list"
+        ]
+      },
+      {
+        "name": "constant",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "format",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "table",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "(other)",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "maxsize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "scalarmode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,66 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-26",
+      "maxclass": "newobj",
+      "numinlets": 6,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        52.0,
+        22.0
+      ],
+      "text": "biquad~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "a0",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "a1",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "a2",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "b1",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "b2",
+        "type": [
+          "float"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "smooth",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

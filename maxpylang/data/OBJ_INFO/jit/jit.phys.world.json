@@ -1,0 +1,121 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-150",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        78.0,
+        22.0
+      ],
+      "text": "jit.phys.world"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "automatic",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "collision_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "collisions",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "drawto",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "dynamics",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "fixedtimestep",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "gravity",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "maxsubsteps",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "numcollisions",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "numthreads",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "raytest_mode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "remove_plane",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "split_impulse",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "targetname",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "worldbox",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "worldbox_scale",
+      "type": "float",
+      "size": "3"
+    }
+  ],
+  "in/out": {}
+}

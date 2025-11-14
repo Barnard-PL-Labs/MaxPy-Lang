@@ -1,0 +1,54 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-82",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 3,
+      "outlettype": [
+        "",
+        "bang",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        41.0,
+        22.0
+      ],
+      "text": "dialog"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "label",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "label",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "mask",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

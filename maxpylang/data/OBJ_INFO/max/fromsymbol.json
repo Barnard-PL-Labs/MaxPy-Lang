@@ -1,0 +1,35 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-123",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        71.0,
+        22.0
+      ],
+      "text": "fromsymbol"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "separator",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

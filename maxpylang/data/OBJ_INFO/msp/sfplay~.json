@@ -1,0 +1,182 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-435",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        47.0,
+        22.0
+      ],
+      "text": "sfplay~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "sflist-object-name",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "number-of-output-channels",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "buffer-size",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "position-outlet-flag",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "object-reference-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "audiofile",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "basictuning",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "followglobaltempo",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "formant",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "formantcorrection",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "loop",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "originallength",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "originaltempo",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "pitchcorrection",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pitchshift",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "pitchshiftcent",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "quality",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "slurtime",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "speed",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "timestretch",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {
+    "numoutlets": [
+      {
+        "argtype": "n",
+        "index": 0,
+        "add_amt": 1,
+        "type": {
+          "default": "signal",
+          "last": [
+            1,
+            "bang"
+          ]
+        }
+      },
+      {
+        "argtype": "n",
+        "index": 2,
+        "acc_vals": [
+          1,
+          2
+        ],
+        "type": {
+          "default": "signal",
+          "last": [
+            1,
+            "bang"
+          ]
+        }
+      }
+    ]
+  }
+}

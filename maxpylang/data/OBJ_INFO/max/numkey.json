@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-257",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "int",
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        51.0,
+        22.0
+      ],
+      "text": "numkey"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "format",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

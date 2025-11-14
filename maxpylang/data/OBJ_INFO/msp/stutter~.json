@@ -1,0 +1,65 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-451",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        49.0,
+        22.0
+      ],
+      "text": "stutter~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "max-buffer-length",
+        "units": "samples",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "initial-buffer-size",
+        "units": "samples",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "trigger-polarity",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "number-of-copied-samples",
+        "units": "samples",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "number-of-outputs",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

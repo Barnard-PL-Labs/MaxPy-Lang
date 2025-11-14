@@ -1,0 +1,48 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-156",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        53.0,
+        22.0
+      ],
+      "text": "mc.clip~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "minimum",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "maximum",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

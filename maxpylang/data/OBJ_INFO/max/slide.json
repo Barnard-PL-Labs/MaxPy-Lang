@@ -1,0 +1,43 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-345",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "float"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        33.0,
+        22.0
+      ],
+      "text": "slide"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "slide-up",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "slide-down-value",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

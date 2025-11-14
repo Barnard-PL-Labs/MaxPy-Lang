@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-53",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        60.0,
+        22.0
+      ],
+      "text": "jit.fluoride"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "glow",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "lum",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "tol",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

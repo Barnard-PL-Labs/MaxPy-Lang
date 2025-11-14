@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-482",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        83.0,
+        22.0
+      ],
+      "text": "windowed-fft~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "number-of-FFT-samples",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

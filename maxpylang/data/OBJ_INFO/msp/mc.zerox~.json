@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-335",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "multichannelsignal",
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        22.0
+      ],
+      "text": "mc.zerox~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "click-volume",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-459",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "tapconnect"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        42.0,
+        22.0
+      ],
+      "text": "tapin~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "maximum-delay",
+        "units": "ms",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-308",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        32.0,
+        22.0
+      ],
+      "text": "pvar"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "object-name",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "number-of-outlets",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {
+    "numoutlets": [
+      {
+        "argtype": "n",
+        "index": 0,
+        "type": ""
+      }
+    ]
+  }
+}

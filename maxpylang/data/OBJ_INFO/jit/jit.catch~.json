@@ -1,0 +1,61 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-28",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        56.0,
+        22.0
+      ],
+      "text": "jit.catch~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "downsample",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "framesize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "trigdir",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "trigchan",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "trigthresh",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

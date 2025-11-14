@@ -1,0 +1,58 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-309",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        31.0,
+        22.0
+      ],
+      "text": "qlim"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "minimum",
+        "units": "ms",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "defer",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "quantize",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "threshold",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "usurp",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

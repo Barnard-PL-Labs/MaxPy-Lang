@@ -1,0 +1,40 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-301",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        63.0,
+        22.0
+      ],
+      "text": "mc.spike~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "refractory-period",
+        "units": "ms",
+        "type": [
+          "int",
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

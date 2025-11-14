@@ -1,0 +1,107 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-273",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        33.0,
+        22.0
+      ],
+      "restore": [
+        0
+      ],
+      "saved_object_attributes": {
+        "parameter_enable": 0,
+        "parameter_mappable": 0
+      },
+      "text": "pattr",
+      "varname": "u286002759"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "autorestore",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bindto",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "default_active",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "default_interp",
+      "type": "atom",
+      "size": "2"
+    },
+    {
+      "name": "default_priority",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dirty",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "initial",
+      "type": "atom",
+      "size": "256"
+    },
+    {
+      "name": "invisible",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "thru",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "type",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

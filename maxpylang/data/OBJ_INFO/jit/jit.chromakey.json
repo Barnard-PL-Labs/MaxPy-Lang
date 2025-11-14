@@ -1,0 +1,66 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-31",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        79.0,
+        22.0
+      ],
+      "text": "jit.chromakey"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "alphaignore",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "color",
+      "type": "float",
+      "size": "32"
+    },
+    {
+      "name": "fade",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "maxkey",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "minkey",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "tol",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

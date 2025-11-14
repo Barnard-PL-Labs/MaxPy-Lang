@@ -1,0 +1,84 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-181",
+      "maxclass": "mc.ezadc~",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        45.0,
+        45.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "border",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "elementcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "local",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "offgradcolor1",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "offgradcolor2",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "ongradcolor1",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "ongradcolor2",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

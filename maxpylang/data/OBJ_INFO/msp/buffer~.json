@@ -1,0 +1,88 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-33",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "float",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        46.0,
+        22.0
+      ],
+      "text": "buffer~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "filename",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "duration",
+        "type": [
+          "number"
+        ],
+        "units": "ms"
+      },
+      {
+        "name": "channels",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "dither",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "filetype",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "format",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "quantization",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "samps",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "size",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

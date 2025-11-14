@@ -1,0 +1,53 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-219",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        61.0,
+        22.0
+      ],
+      "text": "mc.lores~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "cutoff",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "resonance",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "cutoff",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "resonance",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

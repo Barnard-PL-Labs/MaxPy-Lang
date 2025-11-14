@@ -1,0 +1,78 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-415",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        50.0,
+        22.0
+      ],
+      "text": "record~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "buffer-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": [
+      {
+        "name": "input-channels",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "append",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "loop",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "loopend",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "loopstart",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "transport",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {
+    "numinlets": [
+      {
+        "argtype": "a",
+        "index": 1,
+        "add_amt": 2,
+        "type": null
+      }
+    ]
+  }
+}

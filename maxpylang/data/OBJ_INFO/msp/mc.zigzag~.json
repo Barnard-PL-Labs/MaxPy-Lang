@@ -1,0 +1,57 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-336",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 5,
+      "outlettype": [
+        "multichannelsignal",
+        "multichannelsignal",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        70.0,
+        22.0
+      ],
+      "text": "mc.zigzag~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-value",
+        "type": [
+          "int",
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "loopmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "maxpoints",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,122 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-443",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        59.0,
+        22.0
+      ],
+      "text": "snowfall~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "dimenions",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "boundarymode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dimensions",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "direction",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "directiondev",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "endmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "endvalue",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "energyramp",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "initial",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "initialdev",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "interval",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "intervaldev",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "max",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "min",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "scalemax",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "scalemin",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "squish",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "wanderprob",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

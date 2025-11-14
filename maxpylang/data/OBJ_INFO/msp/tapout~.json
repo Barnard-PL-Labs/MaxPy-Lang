@@ -1,0 +1,43 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-460",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        49.0,
+        22.0
+      ],
+      "text": "tapout~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initial-delay",
+        "units": "ms",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "unique",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

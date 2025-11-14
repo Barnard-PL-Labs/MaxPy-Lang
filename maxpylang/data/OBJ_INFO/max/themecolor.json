@@ -1,0 +1,41 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-385",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "list",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        68.0,
+        22.0
+      ],
+      "text": "themecolor"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "id": "0",
+        "name": "UI element name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "color",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

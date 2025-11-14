@@ -1,0 +1,101 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-148",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        81.0,
+        22.0
+      ],
+      "text": "jit.phys.picker"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "body",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "dynamics",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "filterclass",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "filters",
+      "type": "symbol",
+      "size": "10"
+    },
+    {
+      "name": "hover",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "local_position",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "output_positions",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pickmode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "position",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "strength",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "stretch",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "ui_priority",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "worldname",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

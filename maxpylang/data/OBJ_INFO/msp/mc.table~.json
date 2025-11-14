@@ -1,0 +1,103 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-310",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        61.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "embed": 0,
+        "name": "",
+        "parameter_enable": 0,
+        "parameter_mappable": 0,
+        "range": 128,
+        "size": 128
+      },
+      "text": "mc.table~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "embed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "extend",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "inmap",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "inputmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "outscale",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "range",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "signed",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "size",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "triggermode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

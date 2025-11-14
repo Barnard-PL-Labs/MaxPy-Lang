@@ -1,0 +1,145 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-116",
+      "markers": [
+        -60,
+        -48,
+        -36,
+        -24,
+        -12,
+        -6,
+        0,
+        6
+      ],
+      "markersused": 8,
+      "maxclass": "levelmeter~",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        128.0,
+        64.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "attack",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "coolcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "displaychan",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "fgcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "hotcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "inactivealpha",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "interval",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "markercolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "markers",
+      "type": "int",
+      "size": "8"
+    },
+    {
+      "name": "markersused",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "needlecolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "offset",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "overloadcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "range",
+      "type": "atom_long",
+      "size": "2"
+    },
+    {
+      "name": "release",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "rounded",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "tepidcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "warmcolor",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

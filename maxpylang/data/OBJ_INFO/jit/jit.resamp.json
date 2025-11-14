@@ -1,0 +1,66 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-180",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        61.0,
+        22.0
+      ],
+      "text": "jit.resamp"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "interp_x",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interp_y",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "wrap",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "xscale",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "xshift",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "yscale",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "yshift",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

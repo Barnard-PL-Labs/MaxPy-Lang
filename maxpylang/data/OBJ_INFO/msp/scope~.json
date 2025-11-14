@@ -1,0 +1,111 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-429",
+      "maxclass": "scope~",
+      "numinlets": 2,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        130.0,
+        130.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "automatic",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bufsize",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "calccount",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "delay",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "displaychan",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "displaysinglechannel",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "drawstyle",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "fgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "gridcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "inactivealpha",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "range",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "rounded",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "trigger",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "triglevel",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,52 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-101",
+      "maxclass": "dropfile",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        33.0,
+        42.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "border",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "bordercolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "folderslash",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rounded",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "types",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

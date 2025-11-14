@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-47",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "list",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        77.0,
+        22.0
+      ],
+      "text": "jit.euler2quat"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "euler",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "normalize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "quat",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "rotate_order",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-259",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "bang",
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        55.0,
+        22.0
+      ],
+      "text": "onebang"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "initialization",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

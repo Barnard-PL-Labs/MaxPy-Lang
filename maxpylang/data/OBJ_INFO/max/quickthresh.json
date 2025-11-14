@@ -1,0 +1,52 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-312",
+      "maxclass": "newobj",
+      "numinlets": 4,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        70.0,
+        22.0
+      ],
+      "text": "quickthresh"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "threshold",
+        "units": "ms",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "fudge",
+        "units": "ms",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "extension",
+        "units": "ms",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

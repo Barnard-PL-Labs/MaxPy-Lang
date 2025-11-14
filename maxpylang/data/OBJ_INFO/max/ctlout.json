@@ -1,0 +1,56 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-69",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        37.0,
+        22.0
+      ],
+      "text": "ctlout"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "port",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "device",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "ctrllr-channel",
+        "type": [
+          "list"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "matchport",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

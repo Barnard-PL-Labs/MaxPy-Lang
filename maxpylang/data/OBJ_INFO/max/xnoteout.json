@@ -1,0 +1,37 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-426",
+      "maxclass": "newobj",
+      "numinlets": 4,
+      "numoutlets": 1,
+      "outlettype": [
+        "int"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        55.0,
+        22.0
+      ],
+      "text": "xnoteout"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "channel",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

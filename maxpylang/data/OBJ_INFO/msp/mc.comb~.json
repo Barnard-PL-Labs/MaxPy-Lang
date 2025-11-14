@@ -1,0 +1,63 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-158",
+      "maxclass": "newobj",
+      "numinlets": 5,
+      "numoutlets": 1,
+      "outlettype": [
+        "multichannelsignal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        22.0
+      ],
+      "text": "mc.comb~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "max-delay",
+        "units": "ms",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "initial-delay",
+        "units": "ms",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "gain-coefficient",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "feedforward-coefficient",
+        "type": [
+          "float"
+        ]
+      },
+      {
+        "name": "feedback-coefficient",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

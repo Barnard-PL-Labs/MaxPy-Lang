@@ -1,0 +1,47 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-376",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        32.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "attr_comment": ""
+      },
+      "text": "out~"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "outlet-number",
+        "type": [
+          "int"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "attr_comment",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

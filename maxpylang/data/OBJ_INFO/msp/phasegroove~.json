@@ -1,0 +1,35 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-382",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        85.0,
+        22.0
+      ],
+      "text": "phasegroove~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "conflict",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

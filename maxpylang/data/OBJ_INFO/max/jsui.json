@@ -1,0 +1,60 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-173",
+      "maxclass": "jsui",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        64.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "border",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "filename",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "jsarguments",
+      "type": "atom",
+      "size": "256"
+    },
+    {
+      "name": "nofsaa",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

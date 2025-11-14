@@ -1,0 +1,47 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-468",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        55.0,
+        22.0
+      ],
+      "text": "triangle~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "peak-value-phase-offset",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "hi",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "lo",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

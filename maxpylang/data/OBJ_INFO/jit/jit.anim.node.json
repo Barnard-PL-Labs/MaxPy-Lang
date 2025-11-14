@@ -1,0 +1,196 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-12",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        77.0,
+        22.0
+      ],
+      "text": "jit.anim.node"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "anchor",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "anim",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "animmode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "automatic",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "direction",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "inherit_position",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "inherit_rotate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "inherit_scale",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "invtransform",
+      "type": "float",
+      "size": "16"
+    },
+    {
+      "name": "locklook",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "lockplane",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "lookat",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "movemode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "parentpos",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "parentquat",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "parentrot",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "parentscale",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "position",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "quat",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "rotate",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "rotate_order",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "rotatexyz",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "scale",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "transform",
+      "type": "float",
+      "size": "16"
+    },
+    {
+      "name": "tripod",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "turnmode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "worlddir",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "worldpos",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "worldquat",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "worldrot",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "worldscale",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "worldtransform",
+      "type": "float",
+      "size": "16"
+    }
+  ],
+  "in/out": {}
+}

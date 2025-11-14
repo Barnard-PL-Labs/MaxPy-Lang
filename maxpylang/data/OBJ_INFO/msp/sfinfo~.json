@@ -1,0 +1,42 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-433",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 6,
+      "outlettype": [
+        "int",
+        "int",
+        "float",
+        "float",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        44.0,
+        22.0
+      ],
+      "text": "sfinfo~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "filename",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

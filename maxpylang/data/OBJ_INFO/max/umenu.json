@@ -1,0 +1,210 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-409",
+      "items": "<empty>",
+      "maxclass": "umenu",
+      "numinlets": 1,
+      "numoutlets": 3,
+      "outlettype": [
+        "int",
+        "",
+        ""
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        100.0,
+        22.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "align",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "allowdrag",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "applycolors",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "arrow",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "arrowbgcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "arrowcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "arrowframe",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "arrowlink",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "autopopulate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bgcolor2",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bgfillcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "collection",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "color",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "depth",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "discolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "elementcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "framecolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "hltcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "items",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "labelclick",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "menumode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pattrmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "prefix",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "prefix_mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rounded",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "showdotfiles",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "textcolor2",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "togcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "truncate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "types",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "underline",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

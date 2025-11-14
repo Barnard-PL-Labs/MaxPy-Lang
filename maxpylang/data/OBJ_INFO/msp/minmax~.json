@@ -1,0 +1,33 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-356",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 4,
+      "outlettype": [
+        "signal",
+        "signal",
+        "float",
+        "float"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        58.0,
+        22.0
+      ],
+      "text": "minmax~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

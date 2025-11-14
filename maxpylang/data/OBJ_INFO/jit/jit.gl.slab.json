@@ -1,0 +1,131 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-89",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_gl_texture",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        55.0,
+        22.0
+      ],
+      "text": "jit.gl.slab"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "activeinput",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "adapt",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "colormode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "depth",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "dimscale",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "displaylist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "edges",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "file",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "inputs",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "out_name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "outputs",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rect",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "rectangle",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "thru",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "shape",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "subdiv",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "texrect",
+      "type": "float",
+      "size": "128"
+    },
+    {
+      "name": "type",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "wrap",
+      "type": "int",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

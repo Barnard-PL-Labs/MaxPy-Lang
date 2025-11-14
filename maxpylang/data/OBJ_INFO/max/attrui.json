@@ -1,0 +1,147 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-24",
+      "maxclass": "attrui",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "parameter_enable": 0,
+      "patching_rect": [
+        100.0,
+        100.0,
+        150.0,
+        22.0
+      ]
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "align",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "arrowcolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "attr",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "attr_display",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "attrfilter",
+      "type": "symbol",
+      "size": "64"
+    },
+    {
+      "name": "bgcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "bgcolor2",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "bordercolor",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "displaymode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "htricolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "lock",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "menu_display",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "orientation",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "paramonly",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "rounded",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "showcaption",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "storeinpreset",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "style",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "text_width",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "textcolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "textjustification",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "tricolor",
+      "type": "float",
+      "size": "4"
+    }
+  ],
+  "in/out": {}
+}

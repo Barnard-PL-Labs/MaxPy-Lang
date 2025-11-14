@@ -1,0 +1,143 @@
+{
+  "default": {
+    "box": {
+      "enable": 1,
+      "fps": 30.0,
+      "id": "obj-167",
+      "maxclass": "jit.pworld",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        80.0,
+        60.0
+      ],
+      "sync": 1
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "border",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "bordercolor",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "colormode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "depthbuffer",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "doublebuffer",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dstrect",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "fps",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "fsaa",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "idlemouse",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "onscreen",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pickray",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "planemap",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "shared",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "size",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "srcrect",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "stereo",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "sync",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "usedstrect",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "usesrcrect",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

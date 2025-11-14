@@ -1,0 +1,83 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-117",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        34.0,
+        22.0
+      ],
+      "text": "limi~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "channel_count",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "buffer_size",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "bypass",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "dcblock",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "lookahead",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "postamp",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "preamp",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "release",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "threshold",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

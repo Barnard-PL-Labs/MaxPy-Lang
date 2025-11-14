@@ -1,0 +1,118 @@
+{
+  "default": {
+    "box": {
+      "autosave": 1,
+      "bgmode": 1,
+      "border": 0,
+      "clickthrough": 0,
+      "enablehscroll": 0,
+      "enablevscroll": 0,
+      "id": "obj-16",
+      "lockeddragscroll": 0,
+      "lockedsize": 0,
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 4,
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "outlettype": [
+        "signal",
+        "signal",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        45.0,
+        22.0
+      ],
+      "saved_attribute_attributes": {
+        "valueof": {
+          "parameter_invisible": 1,
+          "parameter_longname": "amxd~",
+          "parameter_shortname": "amxd~",
+          "parameter_type": 3
+        }
+      },
+      "saved_object_attributes": {
+        "parameter_enable": 1,
+        "patchername": "",
+        "patchername_fallback": "/Volumes/<none>/"
+      },
+      "text": "amxd~",
+      "varname": "amxd~",
+      "viewvisibility": 0
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "id": "0",
+        "name": "devicename",
+        "type": [
+          "symbol"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "active",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "annotation_name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "autosave",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autosize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mcisolate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "patchername",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "realtime_params",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "showheader",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

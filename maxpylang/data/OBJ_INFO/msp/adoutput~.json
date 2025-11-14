@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-12",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "signal",
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        62.0,
+        22.0
+      ],
+      "text": "adoutput~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "audiodriver-output-channels",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

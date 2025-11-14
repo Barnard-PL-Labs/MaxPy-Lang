@@ -1,0 +1,149 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-277",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        73.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "client_rect": [
+          100,
+          100,
+          500,
+          600
+        ],
+        "parameter_enable": 0,
+        "parameter_mappable": 0,
+        "storage_rect": [
+          200,
+          200,
+          800,
+          500
+        ]
+      },
+      "text": "pattrstorage",
+      "varname": "u637002763"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "activewritemode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autopattr_vis",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autorestore",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "autowatch",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "backupmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "changemode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "client_rect",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "dirty",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "fileusagemode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "flat",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "greedy",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "notifymode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "outputmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "paraminitmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "savemode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "storage_rect",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "subscribemode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

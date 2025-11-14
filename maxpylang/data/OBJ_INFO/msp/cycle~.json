@@ -1,0 +1,75 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-48",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "signal"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        43.0,
+        22.0
+      ],
+      "text": "cycle~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "frequency",
+        "units": "hz",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "buffer-name",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "sample-offset",
+        "type": [
+          "int"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "buffer",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "buffer_offset",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "buffer_sizeinsamps",
+      "type": "atom_long",
+      "size": "1"
+    },
+    {
+      "name": "frequency",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "phase",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

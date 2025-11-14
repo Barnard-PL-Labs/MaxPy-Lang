@@ -1,0 +1,53 @@
+{
+    "2d.wave~": {"numoutlets": [{"argtype": "a", "index": 3, "acc_vals": [1, 2, 4], "type": "signal"}]}, 
+    
+ "gate~": {"numoutlets": [{"argtype": "a", "index": 0, "type": "signal"}]}, 
+    
+ "matrix~": {"numinlets": [{"argtype": "a", "index": 0, "type": null}], 
+             "numoutlets": [{"argtype": "a", "index": 1, "add_amt": 1, 
+                             "type": {"default": "signal", "last": [1, ""]}}]}, 
+    
+ "mc.2d.wave~": {"numoutlets": [{"argtype": "a", "index": 3, "acc_vals": [1, 2, 4], "type": "multichannelsignal"}]}, 
+    
+ "mc.combine~": {"numinlets": [{"argtype": "a", "index": 0, "type": null}]}, 
+    
+ "mc.gate~": {"numoutlets": [{"argtype": "a", "index": 0, "type": "multichannelsignal"}]}, 
+    
+ "mc.matrix~": {"numinlets": [{"argtype": "a", "index": 0, "type": null}], 
+                "numoutlets": [{"argtype": "a", "index": 1, "add_amt": 2, 
+                                "type":{"default": "multichannelsignal", "last":[2, ""]}}]}, 
+    
+ "mc.route": {"numoutlets": [{"argtype": "a", "index": 0, "type": ""}]}, 
+    
+ "mc.sfplay~": {"numoutlets": [{"argtype": "n", "index": 2, "add_amt": 2, "acc_vals": [1, 2], 
+                                "type": {"default": "signal", "first": [1, "multichannelsignal"], "last": [1, "bang"]}}]},
+    
+ "mc.sig~": {"numinlets": [{"argtype": "a", "index": "all", "type": null}], 
+             "numoutlets": [{"argtype": "a", "index": "all", "type": "multichannelsignal"}]}, 
+    
+ "mc.targetlist": {"numinlets": [{"argtype": "n", "index": "all", "comparitor": ">3", "type": null}]}, 
+    
+ "mc.transpose~": {"numinlets": [{"argtype": "a", "index": 0, "type": null}], 
+                   "numoutlets": [{"argtype": "a", "index": 1, "type": "multichannelsignal"}]}, 
+    
+ "mc.unpack~": {"numoutlets": [{"argtype": "a", "index": 0, "type": "signal"}]}, 
+    
+ "mc.vst~": {"numoutlets": [{"argtype": "a", "index": 0, "add_amt": 7, "comparitor": ">1", 
+                             "type": {"default": "multichannelsignal", "last": [7, ""]}}]}, 
+    
+ "mc.wave~": {"numoutlets": [{"argtype": "a", "index": 3, "type": "multichannelsignal"}]}, 
+    
+ "record~": {"numinlets": [{"argtype": "a", "index": 1, "add_amt": 2, "type": null}]}, 
+    
+ "sfplay~": {"numoutlets": [{"argtype": "n", "index": 0, "add_amt": 1, 
+                             "type": {"default": "signal", "last": [1, "bang"]}}, 
+                            {"argtype": "n", "index": 2, "acc_vals": [1, 2], 
+                             "type": {"default": "signal", "last": [1, "bang"]}}]}, 
+    
+ "sfrecord~": {"numinlets": [{"argtype": "a", "index": 0, "type": null}]}, 
+    
+ "vst~": {"numoutlets": [{"argtype": "a", "index": 0, "add_amt": 6, "comparitor": ">1", 
+                          "type": {"default": "signal", "last": [6, ["", "list", "int", "", "", ""]]}}]},
+    
+ "wave~": {"numoutlets": [{"argtype": "a", "index": 3, "type": "signal"}]}
+}

@@ -1,0 +1,38 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-143",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "list",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        18.0,
+        22.0
+      ],
+      "text": "hi"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "device",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    }
+  ],
+  "in/out": {}
+}

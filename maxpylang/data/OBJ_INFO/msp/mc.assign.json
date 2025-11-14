@@ -1,0 +1,60 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-135",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        63.0,
+        22.0
+      ],
+      "text": "mc.assign"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "chans",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "delays",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "density",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "mode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "pattern",
+      "type": "atom",
+      "size": "1"
+    },
+    {
+      "name": "pos",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

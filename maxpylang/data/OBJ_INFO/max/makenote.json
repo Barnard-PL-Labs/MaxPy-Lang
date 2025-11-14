@@ -1,0 +1,60 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-197",
+      "maxclass": "newobj",
+      "numinlets": 3,
+      "numoutlets": 2,
+      "outlettype": [
+        "float",
+        "float"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        61.0,
+        22.0
+      ],
+      "text": "makenote"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "velocity",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "duration",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "channel",
+        "type": [
+          "number"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "duration",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "repeatmode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

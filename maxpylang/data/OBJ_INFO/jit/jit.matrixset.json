@@ -1,0 +1,101 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-123",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        69.0,
+        22.0
+      ],
+      "text": "jit.matrixset"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "dstdimend",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "dstdimstart",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "index",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "matrixcount",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "planecount",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "planemap",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "thru",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "type",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "srcdimend",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "srcdimstart",
+      "type": "int",
+      "size": "32"
+    },
+    {
+      "name": "usedstdim",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "usesrcdim",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

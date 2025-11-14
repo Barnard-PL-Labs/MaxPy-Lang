@@ -1,0 +1,66 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-334",
+      "maxclass": "newobj",
+      "numinlets": 6,
+      "numoutlets": 1,
+      "outlettype": [
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        37.0,
+        22.0
+      ],
+      "text": "scale"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "input-low",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "input-high",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "output-low",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "output-high",
+        "type": [
+          "number"
+        ]
+      },
+      {
+        "name": "exponential",
+        "type": [
+          "float"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "classic",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

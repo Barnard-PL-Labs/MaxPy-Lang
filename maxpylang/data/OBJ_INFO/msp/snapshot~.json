@@ -1,0 +1,49 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-442",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 1,
+      "outlettype": [
+        "float"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        64.0,
+        22.0
+      ],
+      "text": "snapshot~"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "reporting-interval",
+        "default": "0",
+        "units": "time-value",
+        "type": [
+          "list"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "active",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interval",
+      "type": "atom",
+      "size": "10"
+    }
+  ],
+  "in/out": {}
+}

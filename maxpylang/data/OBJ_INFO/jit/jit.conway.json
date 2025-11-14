@@ -1,0 +1,51 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-37",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        61.0,
+        22.0
+      ],
+      "text": "jit.conway"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "birthmark",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "deathmask",
+      "type": "int",
+      "size": "9"
+    },
+    {
+      "name": "lifemask",
+      "type": "int",
+      "size": "9"
+    },
+    {
+      "name": "neighborhood",
+      "type": "int",
+      "size": "8"
+    }
+  ],
+  "in/out": {}
+}

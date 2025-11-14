@@ -1,0 +1,206 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-62",
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_gl_texture",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        50.0,
+        22.0
+      ],
+      "text": "jit.gl.bfg"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "activeinput",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "adapt",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "basis",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "basis.inner",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "basis.outer",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "colorize",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "colormode",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "depth",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "dim",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "dimscale",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "displaylist",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "distortion",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "edges",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "file",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "fractal_params",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "inputs",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "offset",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "out_name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "outputs",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "palette",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "rect",
+      "type": "float",
+      "size": "4"
+    },
+    {
+      "name": "rectangle",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "scale",
+      "type": "float",
+      "size": "2"
+    },
+    {
+      "name": "shape",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "subdiv",
+      "type": "int",
+      "size": "2"
+    },
+    {
+      "name": "texrect",
+      "type": "float",
+      "size": "128"
+    },
+    {
+      "name": "time",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "type",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "voronoi_crackle",
+      "type": "float",
+      "size": "3"
+    },
+    {
+      "name": "voronoi_jitter",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "voronoi_shade",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "voronoi_smooth",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "voronoise_amt",
+      "type": "float",
+      "size": "1"
+    },
+    {
+      "name": "wrap",
+      "type": "int",
+      "size": "4"
+    },
+    {
+      "name": "zoom",
+      "type": "float",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

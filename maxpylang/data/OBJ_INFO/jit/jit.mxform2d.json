@@ -1,0 +1,56 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-127",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 2,
+      "outlettype": [
+        "jit_matrix",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        74.0,
+        22.0
+      ],
+      "text": "jit.mxform2d"
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "boundmode",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "interp",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mxform",
+      "type": "float",
+      "size": "9"
+    },
+    {
+      "name": "offset_x",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "offset_y",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}

@@ -1,0 +1,147 @@
+{
+  "default": {
+    "box": {
+      "bgmode": 0,
+      "border": 0,
+      "clickthrough": 0,
+      "data": {
+        "autosave": 1
+      },
+      "enablehscroll": 0,
+      "enablevscroll": 0,
+      "id": "obj-331",
+      "lockeddragscroll": 0,
+      "lockedsize": 0,
+      "maxclass": "newobj",
+      "numinlets": 2,
+      "numoutlets": 9,
+      "offset": [
+        0.0,
+        0.0
+      ],
+      "outlettype": [
+        "multichannelsignal",
+        "multichannelsignal",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        50.0,
+        22.0
+      ],
+      "saved_object_attributes": {
+        "parameter_enable": 1,
+        "parameter_mappable": 0
+      },
+      "text": "mc.vst~",
+      "viewvisibility": 0
+    }
+  },
+  "args": {
+    "required": [],
+    "optional": [
+      {
+        "name": "number-of-inputs/outputs",
+        "type": [
+          "int"
+        ]
+      },
+      {
+        "name": "VST-plugin-filename",
+        "type": [
+          "symbol"
+        ]
+      },
+      {
+        "name": "preset-effects-name",
+        "type": [
+          "symbol"
+        ]
+      }
+    ]
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "annotation_name",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "autosave",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "bypass",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enablehscroll",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "enablevscroll",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "genericeditor",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "mcisolate",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_enable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "parameter_mappable",
+      "type": "int",
+      "size": "1"
+    },
+    {
+      "name": "prefer",
+      "type": "symbol",
+      "size": "1"
+    },
+    {
+      "name": "valuemode",
+      "type": "int",
+      "size": "1"
+    }
+  ],
+  "in/out": {
+    "numoutlets": [
+      {
+        "argtype": "a",
+        "index": 0,
+        "add_amt": 7,
+        "comparitor": ">1",
+        "type": {
+          "default": "multichannelsignal",
+          "last": [
+            7,
+            ""
+          ]
+        }
+      }
+    ]
+  }
+}

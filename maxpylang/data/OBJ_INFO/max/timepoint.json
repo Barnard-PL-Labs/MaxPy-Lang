@@ -1,0 +1,49 @@
+{
+  "default": {
+    "box": {
+      "id": "obj-388",
+      "maxclass": "newobj",
+      "numinlets": 1,
+      "numoutlets": 1,
+      "outlettype": [
+        "bang"
+      ],
+      "patching_rect": [
+        100.0,
+        100.0,
+        57.0,
+        22.0
+      ],
+      "text": "timepoint"
+    }
+  },
+  "args": {
+    "required": [
+      {
+        "name": "time",
+        "type": [
+          "int",
+          "symbol",
+          "float"
+        ]
+      }
+    ],
+    "optional": []
+  },
+  "attribs": [
+    {
+      "name": "COMMON"
+    },
+    {
+      "name": "time",
+      "type": "atom",
+      "size": "10"
+    },
+    {
+      "name": "transport",
+      "type": "symbol",
+      "size": "1"
+    }
+  ],
+  "in/out": {}
+}
