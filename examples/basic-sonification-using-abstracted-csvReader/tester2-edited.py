@@ -1,4 +1,4 @@
-import maxpy as mp
+import maxpylang as mp
 
 patch = mp.MaxPatch(load_file="tester2.maxpat")
 
